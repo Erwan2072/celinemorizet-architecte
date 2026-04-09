@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- #region HEAD -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie | Céline Morizet</title>
+  <meta
+    name="description"
+    content="Découvrez la galerie des projets de Céline Morizet, architecte DPLG : rénovations, extensions, constructions neuves et aménagements."
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- #endregion -->
+
+<body>
+  <!-- #region HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Retour à l'accueil">
+        <img
+          src="assets/images/logo.webp"
+          alt="Logo Céline Morizet Architecte"
+          class="logo-image"
+        >
+
+        <div class="logo-text">
+          <span class="logo-name">CÉLINE MORIZET</span>
+          <span class="logo-sub">EIRL Morizet</span>
+          <span class="logo-sub">Architecte D.P.L.G.</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="galerie.html" class="nav-link active">Galerie</a></li>
+          <li><a href="liens-utiles.html" class="nav-link">Liens utiles</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- #endregion -->
+
+  <!-- #region MAIN -->
+  <main>
+    <!-- #region HERO TOP -->
+    <section class="hero-top">
+      <div class="container">
+        <img
+          src="assets/images/plan.webp"
+          alt="Plan architectural avec outils"
+          class="hero-top-image"
+        >
+      </div>
+    </section>
+    <!-- #endregion -->
+    <!-- #region GALERIE HERO -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">GALERIE</p>
+          <h1 class="section-title">Une sélection de projets</h1>
+          <p class="section-subtitle">
+            Découvrez différentes réalisations classées par thématiques.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- #endregion -->
+
+    <!-- #region GALERIE TABS -->
+    <section class="gallery-tabs-section">
+      <div class="container">
+        <div class="tabs-container gallery-tabs-container">
+          <!-- #region GALLERY TAB NAV -->
+          <div class="tabs-nav gallery-tabs-nav" role="tablist" aria-label="Catégories de projets">
+            <button
+              class="tab-button active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="gallery-panel-1"
+              id="gallery-button-1"
+              data-tab-target="gallery-panel-1"
+            >
+              Maisons
+            </button>
+
+            <button
+              class="tab-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="gallery-panel-2"
+              id="gallery-button-2"
+              data-tab-target="gallery-panel-2"
+            >
+              Extensions
+            </button>
+
+            <button
+              class="tab-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="gallery-panel-3"
+              id="gallery-button-3"
+              data-tab-target="gallery-panel-3"
+            >
+              Rénovations
+            </button>
+
+            <button
+              class="tab-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="gallery-panel-4"
+              id="gallery-button-4"
+              data-tab-target="gallery-panel-4"
+            >
+              Intérieurs
+            </button>
+
+            <button
+              class="tab-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="gallery-panel-5"
+              id="gallery-button-5"
+              data-tab-target="gallery-panel-5"
+            >
+              Concours
+            </button>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region GALLERY PANEL 1 -->
+          <div
+            class="tab-panel active"
+            id="gallery-panel-1"
+            role="tabpanel"
+            aria-labelledby="gallery-button-1"
+          >
+            <div class="gallery-grid">
+              <!-- #region PROJECT 01 -->
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/maison-01.webp"
+                    alt="Maison contemporaine en bardage clair"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Maison contemporaine</h2>
+
+                  <p class="gallery-card-meta">Construction neuve • 2024</p>
+
+                  <p class="card-text card-text-preview">
+                    Conception d’une maison familiale à l’architecture sobre, ouverte sur le jardin...
+                  </p>
+
+                  <p class="card-text card-text-full">
+                    Conception d’une maison familiale à l’architecture sobre, ouverte sur le jardin et pensée pour offrir des volumes fluides, lumineux et durables. Le travail a porté sur l’implantation, la relation intérieur/extérieur, la gestion des ouvertures et le choix d’une écriture architecturale simple et élégante.
+                  </p>
+                </div>
+              </article>
+              <!-- #endregion -->
+
+              <!-- #region PROJECT 02 -->
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/maison-02.webp"
+                    alt="Maison individuelle avec façade minérale"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Maison individuelle</h2>
+
+                  <p class="gallery-card-meta">Habitation • 2023</p>
+
+                  <p class="card-text card-text-preview">
+                    Projet de maison individuelle conçu autour des usages quotidiens et de la lumière naturelle...
+                  </p>
+
+                  <p class="card-text card-text-full">
+                    Projet de maison individuelle conçu autour des usages quotidiens et de la lumière naturelle. L’objectif a été de créer un cadre de vie confortable, structuré et cohérent, en intégrant les contraintes du site, les attentes du maître d’ouvrage et la qualité des espaces de vie.
+                  </p>
+                </div>
+              </article>
+              <!-- #endregion -->
+
+              <!-- #region PROJECT 03 -->
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/maison-03.webp"
+                    alt="Maison de plain-pied avec terrasse"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Maison de plain-pied</h2>
+
+                  <p class="gallery-card-meta">Résidentiel • 2022</p>
+
+                  <p class="card-text card-text-preview">
+                    Une habitation pensée pour le confort, l’accessibilité et l’ouverture sur l’extérieur...
+                  </p>
+
+                  <p class="card-text card-text-full">
+                    Une habitation pensée pour le confort, l’accessibilité et l’ouverture sur l’extérieur. Le projet met l’accent sur une organisation claire des espaces, une circulation fluide et un rapport apaisé entre architecture, paysage et matériaux.
+                  </p>
+                </div>
+              </article>
+              <!-- #endregion -->
+            </div>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region GALLERY PANEL 2 -->
+          <div
+            class="tab-panel"
+            id="gallery-panel-2"
+            role="tabpanel"
+            aria-labelledby="gallery-button-2"
+            hidden
+          >
+            <div class="gallery-grid">
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/extension-01.webp"
+                    alt="Extension en ossature bois"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Extension bois</h2>
+                  <p class="gallery-card-meta">Extension • 2024</p>
+                  <p class="card-text card-text-preview">
+                    Agrandissement d’une habitation existante afin de créer un nouvel espace de vie...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Agrandissement d’une habitation existante afin de créer un nouvel espace de vie lumineux et contemporain. Le projet s’attache à dialoguer avec le bâti existant tout en affirmant une écriture actuelle et mesurée.
+                  </p>
+                </div>
+              </article>
+
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/extension-02.webp"
+                    alt="Extension avec verrière"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Extension verrière</h2>
+                  <p class="gallery-card-meta">Réhabilitation • 2023</p>
+                  <p class="card-text card-text-preview">
+                    Création d’un volume complémentaire pour ouvrir la maison sur le jardin...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Création d’un volume complémentaire pour ouvrir la maison sur le jardin et améliorer les usages. L’intervention met en valeur l’existant tout en apportant lumière, profondeur et continuité spatiale.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region GALLERY PANEL 3 -->
+          <div
+            class="tab-panel"
+            id="gallery-panel-3"
+            role="tabpanel"
+            aria-labelledby="gallery-button-3"
+            hidden
+          >
+            <div class="gallery-grid">
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/renovation-01.webp"
+                    alt="Rénovation d'une façade ancienne"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Rénovation de façade</h2>
+                  <p class="gallery-card-meta">Patrimoine • 2022</p>
+                  <p class="card-text card-text-preview">
+                    Requalification d’un bâtiment existant avec attention portée à l’identité du lieu...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Requalification d’un bâtiment existant avec attention portée à l’identité du lieu, à la lumière naturelle et à la qualité des finitions. L’intervention vise à moderniser sans dénaturer.
+                  </p>
+                </div>
+              </article>
+
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/renovation-02.webp"
+                    alt="Transformation d'un volume intérieur"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Transformation intérieure</h2>
+                  <p class="gallery-card-meta">Rénovation • 2021</p>
+                  <p class="card-text card-text-preview">
+                    Réorganisation complète des espaces pour améliorer la circulation et les usages...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Réorganisation complète des espaces pour améliorer la circulation et les usages. Le projet propose une nouvelle lecture du lieu grâce à des volumes plus clairs, une meilleure lumière et des matières sobres.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region GALLERY PANEL 4 -->
+          <div
+            class="tab-panel"
+            id="gallery-panel-4"
+            role="tabpanel"
+            aria-labelledby="gallery-button-4"
+            hidden
+          >
+            <div class="gallery-grid">
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/interieur-01.webp"
+                    alt="Aménagement intérieur épuré"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Aménagement intérieur</h2>
+                  <p class="gallery-card-meta">Intérieur • 2024</p>
+                  <p class="card-text card-text-preview">
+                    Travail sur les ambiances, la circulation et la cohérence des matériaux...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Travail sur les ambiances, la circulation et la cohérence des matériaux afin de créer des espaces intérieurs lisibles, apaisés et adaptés aux usages quotidiens.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region GALLERY PANEL 5 -->
+          <div
+            class="tab-panel"
+            id="gallery-panel-5"
+            role="tabpanel"
+            aria-labelledby="gallery-button-5"
+            hidden
+          >
+            <div class="gallery-grid">
+              <article class="gallery-card prestation-card card-clickable">
+                <button class="card-close" type="button" aria-label="Fermer la carte">✕</button>
+                <div class="gallery-card-image-wrapper">
+                  <img
+                    src="assets/images/galerie/concours-01.webp"
+                    alt="Étude conceptuelle architecturale"
+                    class="gallery-card-image"
+                    loading="lazy"
+                  >
+                </div>
+                <div class="gallery-card-content">
+                  <h2 class="card-title">Étude conceptuelle</h2>
+                  <p class="gallery-card-meta">Concours • Projet</p>
+                  <p class="card-text card-text-preview">
+                    Proposition architecturale développée autour d’un concept fort et d’une écriture maîtrisée...
+                  </p>
+                  <p class="card-text card-text-full">
+                    Proposition architecturale développée autour d’un concept fort et d’une écriture maîtrisée. Le travail présente une démarche de conception complète, de l’idée à la traduction spatiale.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- #endregion -->
+        </div>
+      </div>
+    </section>
+    <!-- #endregion -->
+  </main>
+  <!-- #endregion -->
+
+  <!-- #region FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-text">
+        © 2026 Céline Morizet — Architecte DPLG
+      </p>
+
+      <div class="footer-right">
+        <img
+          src="assets/images/ordre_architectes.webp"
+          alt="Inscrit à l'ordre des architectes"
+          class="footer-ordre-logo"
+        >
+
+        <div class="footer-socials">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://tonsite.fr"
+            target="_blank"
+            rel="noopener"
+            aria-label="Partager sur Facebook"
+            class="social-link"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.91h-2.33V22c4.78-.75 8.44-4.91 8.44-9.93z"/>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+            class="social-link"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #endregion -->
+
+  <!-- #region CARD FOCUS OVERLAY -->
+<div class="card-focus-overlay" id="cardFocusOverlay" hidden></div>
+<!-- #endregion -->
+  <!-- #region SCRIPTS -->
+  <script src="js/main.js"></script>
+  <!-- #endregion -->
+</body>
+</html>

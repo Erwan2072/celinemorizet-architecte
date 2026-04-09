@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- #region HEAD -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Céline Morizet</title>
+  <meta
+    name="description"
+    content="Contactez Céline Morizet, architecte DPLG, pour échanger sur votre projet de construction, rénovation ou accompagnement architectural."
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- #endregion -->
+
+<body>
+  <!-- #region HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Retour à l'accueil">
+        <img
+          src="assets/images/logo.webp"
+          alt="Logo Céline Morizet Architecte"
+          class="logo-image"
+        >
+
+        <div class="logo-text">
+          <span class="logo-name">CÉLINE MORIZET</span>
+          <span class="logo-sub">EIRL Morizet</span>
+          <span class="logo-sub">Architecte D.P.L.G.</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="galerie.html" class="nav-link">Galerie</a></li>
+          <li><a href="liens-utiles.html" class="nav-link">Liens utiles</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- #endregion -->
+
+  <!-- #region MAIN -->
+  <main>
+    <!-- #region HERO TOP -->
+    <section class="hero-top">
+      <div class="container">
+        <img
+          src="assets/images/plan.webp"
+          alt="Plan architectural avec outils"
+          class="hero-top-image"
+        >
+      </div>
+    </section>
+    <!-- #endregion -->
+     
+    <!-- #region CONTACT SECTION -->
+    <section class="contact-section">
+      <div class="container">
+        <!-- #region CONTACT HEADER -->
+        <div class="section-header">
+          <p class="section-tag">CONTACT</p>
+          <h1 class="section-title">Échangeons sur votre projet</h1>
+        </div>
+        <!-- #endregion -->
+
+        <!-- #region CONTACT LAYOUT -->
+        <div class="contact-layout">
+          <!-- #region CONTACT LEFT COLUMN -->
+          <div class="contact-left-column">
+            <!-- #region CONTACT INFOS -->
+            <aside class="contact-info-card">
+              <h2 class="contact-info-title">Coordonnées</h2>
+
+              <div class="contact-info-block">
+                <p class="contact-info-label">Téléphone</p>
+                <p class="contact-info-text">06 61 52 74 74</p>
+              </div>
+
+              <div class="contact-info-block">
+                <p class="contact-info-label">Email</p>
+                <p class="contact-info-text">morizetceline@orange.fr</p>
+              </div>
+
+              <div class="contact-info-block">
+                <p class="contact-info-label">Adresse</p>
+                <p class="contact-info-text">
+                  7/11 rue de l’école<br>
+                  35250 Chasné-sur-Illet
+                </p>
+              </div>
+
+              <div class="contact-info-block">
+                <p class="contact-info-label">Site</p>
+                <p class="contact-info-text">www.celine-morizet.fr</p>
+              </div>
+            </aside>
+            <!-- #endregion -->
+
+            <!-- #region CONTACT MAP -->
+            <div class="contact-map-card">
+              <h2 class="contact-info-title">Localisation</h2>
+
+              <div class="contact-map-wrapper">
+                <iframe
+                  title="Localisation Céline Morizet Architecte"
+                  src="https://www.google.com/maps?q=7%2F11%20rue%20de%20l%E2%80%99%C3%A9cole%2C%2035250%20Chasn%C3%A9-sur-Illet&output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region CONTACT FORM -->
+          <div class="contact-form-card">
+            <form id="contactForm" class="contact-form">
+              <!-- #region FORM ROW 1 -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactNom" class="form-label">Nom</label>
+                  <input
+                    type="text"
+                    id="contactNom"
+                    name="nom"
+                    class="form-input"
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="contactPrenom" class="form-label">Prénom</label>
+                  <input
+                    type="text"
+                    id="contactPrenom"
+                    name="prenom"
+                    class="form-input"
+                    required
+                  >
+                </div>
+              </div>
+              <!-- #endregion -->
+
+              <!-- #region FORM ROW 2 -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="contactEmail"
+                    name="email"
+                    class="form-input"
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="contactTelephone" class="form-label">Téléphone</label>
+                  <input
+                    type="tel"
+                    id="contactTelephone"
+                    name="telephone"
+                    class="form-input"
+                  >
+                </div>
+              </div>
+              <!-- #endregion -->
+
+              <!-- #region FORM SUBJECT -->
+              <div class="form-group">
+                <label for="contactSujet" class="form-label">Sujet</label>
+                <input
+                  type="text"
+                  id="contactSujet"
+                  name="sujet"
+                  class="form-input"
+                  required
+                >
+              </div>
+              <!-- #endregion -->
+
+              <!-- #region FORM MESSAGE -->
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  class="form-textarea"
+                  rows="8"
+                  required
+                ></textarea>
+              </div>
+              <!-- #endregion -->
+
+              <!-- #region FORM ACTIONS -->
+              <div class="contact-actions">
+                <button type="submit" class="contact-submit-button">
+                  Envoyer
+                </button>
+              </div>
+              <!-- #endregion -->
+            </form>
+          </div>
+          <!-- #endregion -->
+        </div>
+        <!-- #endregion -->
+      </div>
+    </section>
+    <!-- #endregion -->
+  </main>
+  <!-- #endregion -->
+
+  <!-- #region FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-text">
+        © 2026 Céline Morizet — Architecte DPLG
+      </p>
+
+      <div class="footer-right">
+        <img
+          src="assets/images/ordre_architectes.webp"
+          alt="Inscrit à l'ordre des architectes"
+          class="footer-ordre-logo"
+        >
+
+        <div class="footer-socials">
+          <!-- #region FOOTER FACEBOOK -->
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://tonsite.fr"
+            target="_blank"
+            rel="noopener"
+            aria-label="Partager sur Facebook"
+            class="social-link"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.91h-2.33V22c4.78-.75 8.44-4.91 8.44-9.93z"/>
+            </svg>
+          </a>
+          <!-- #endregion -->
+
+          <!-- #region FOOTER INSTAGRAM -->
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+            class="social-link"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+            </svg>
+          </a>
+          <!-- #endregion -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #endregion -->
+
+  <!-- #region MAILTO SCRIPT -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const contactForm = document.getElementById('contactForm');
+
+      if (!contactForm) {
+        return;
+      }
+
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const nom = document.getElementById('contactNom').value.trim();
+        const prenom = document.getElementById('contactPrenom').value.trim();
+        const email = document.getElementById('contactEmail').value.trim();
+        const telephone = document.getElementById('contactTelephone').value.trim();
+        const sujet = document.getElementById('contactSujet').value.trim();
+        const message = document.getElementById('contactMessage').value.trim();
+
+        const destinataire = 'morizetceline@orange.fr';
+
+        const corpsMessage =
+`Nom : ${nom}
+Prénom : ${prenom}
+Email : ${email}
+Téléphone : ${telephone || 'Non renseigné'}
+
+Message :
+${message}`;
+
+        const mailtoLink =
+          `mailto:${destinataire}?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corpsMessage)}`;
+
+        window.location.href = mailtoLink;
+      });
+    });
+  </script>
+  <!-- #endregion -->
+</body>
+</html>
