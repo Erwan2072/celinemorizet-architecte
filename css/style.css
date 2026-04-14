@@ -71,12 +71,39 @@ button {
 
 /* #region BODY */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--text-dark);
-  background-color: var(--site-bg);
-  line-height: 1.6;
   position: relative;
-  overflow-x: hidden;
+  z-index: 0;
+  background-color: rgba(217, 217, 217, 0.94);
+}
+
+/* Image + intégration propre */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: url("../assets/images/plan.jpg");
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.50;
+
+  /* 🔥 MAGIE ICI */
+  mix-blend-mode: multiply;
+}
+
+/* Option : léger filtre pour adoucir */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background: rgba(217, 217, 217, 0.94);
+  opacity: 0.8;
 }
 
 body.card-focus-active::after {
