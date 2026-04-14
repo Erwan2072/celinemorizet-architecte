@@ -81,38 +81,6 @@ body {
 /* #endregion */
 
 /* #region BACKGROUND DESIGN */
-body::before {
-  content: "";
-  position: fixed;
-  top: 62px;
-  left: 0;
-  width: 120px;
-  height: calc(100vh - 62px);
-  z-index: -1;
-  pointer-events: none;
-  opacity: 0.35;
-  background:
-    linear-gradient(
-      to right,
-      transparent 0 14px,
-      rgba(43, 43, 43, 0.75) 14px 18px,
-      transparent 18px 24px,
-      rgba(43, 43, 43, 0.55) 24px 26px,
-      transparent 26px 36px,
-      rgba(43, 43, 43, 0.75) 36px 40px,
-      transparent 40px 49px,
-      rgba(43, 43, 43, 0.45) 49px 51px,
-      transparent 51px 62px,
-      rgba(43, 43, 43, 0.75) 62px 66px,
-      transparent 66px 78px,
-      rgba(43, 43, 43, 0.45) 78px 80px,
-      transparent 80px 94px,
-      rgba(43, 43, 43, 0.75) 94px 98px,
-      transparent 98px 112px,
-      rgba(43, 43, 43, 0.45) 112px 114px,
-      transparent 114px 120px
-    );
-}
 
 body.card-focus-active::after {
   content: "";
@@ -135,7 +103,7 @@ body.card-focus-active::after {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--site-bg-header);
+  background: rgba(43, 43, 43, 0.75);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-dark);
 }
