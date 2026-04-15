@@ -906,6 +906,29 @@ body.card-focus-active::after {
   opacity: 1;
   transform: translateY(-2px);
 }
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-ordre-logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.footer-rone-logo {
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Effet au hover (propre et moderne) */
+.footer-rone-logo:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
 /* #endregion */
 
 /* #region CONTACT PAGE */
