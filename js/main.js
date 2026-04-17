@@ -157,3 +157,13 @@ function resetActiveCards() {
     });
   });
 }
+
+window.openAdmin = function () {
+  let code = prompt("Code d'accès administrateur :");
+
+  if (code === "7474") {
+    window.open("https://celinemorizet.goatcounter.com", "_blank");
+  } else {
+    alert("Accès refusé");
+  }
+};
