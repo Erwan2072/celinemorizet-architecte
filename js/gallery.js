@@ -19,9 +19,7 @@ function initGalleryPage() {
   tabsContainer.addEventListener("click", (event) => {
     const button = event.target.closest(".tab-button");
 
-    if (!button) {
-      return;
-    }
+    if (!button) return;
 
     activeCategory = button.dataset.category;
 
@@ -56,7 +54,7 @@ function renderGalleryProjects(grid, activeCategory) {
   );
 
   grid.innerHTML = projects
-    .map((project, index) => {
+    .map((project) => {
       return `
         <article class="gallery-card prestation-card gallery-project-card">
           <div class="gallery-card-image-wrapper">
@@ -90,6 +88,7 @@ function renderGalleryProjects(grid, activeCategory) {
 function initGalleryModal() {
   const modal = document.getElementById("galleryModal");
   const image = document.getElementById("galleryModalImage");
+  const imageLabel = document.getElementById("galleryImageLabel");
   const title = document.getElementById("galleryModalTitle");
   const category = document.getElementById("galleryModalCategory");
   const meta = document.getElementById("galleryModalMeta");
@@ -100,7 +99,7 @@ function initGalleryModal() {
   const video = document.getElementById("galleryModalVideo");
   const videoTitle = document.getElementById("galleryModalVideoTitle");
 
-  if (!modal || !image || !title || !category || !meta || !text) {
+  if (!modal || !image || !imageLabel || !title || !category || !meta || !text) {
     return;
   }
 
@@ -111,9 +110,7 @@ function initGalleryModal() {
   document.addEventListener("click", (event) => {
     const openButton = event.target.closest(".gallery-card-button");
 
-    if (!openButton) {
-      return;
-    }
+    if (!openButton) return;
 
     const projectIndex = Number(openButton.dataset.projectIndex);
     currentProject = galleryProjects[projectIndex];
@@ -135,27 +132,15 @@ function initGalleryModal() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (modal.hidden) {
-      return;
-    }
+    if (modal.hidden) return;
 
-    if (event.key === "Escape") {
-      closeGalleryModal();
-    }
-
-    if (event.key === "ArrowLeft") {
-      changeImage(-1);
-    }
-
-    if (event.key === "ArrowRight") {
-      changeImage(1);
-    }
+    if (event.key === "Escape") closeGalleryModal();
+    if (event.key === "ArrowLeft") changeImage(-1);
+    if (event.key === "ArrowRight") changeImage(1);
   });
 
   function openGalleryModal() {
-    if (!currentProject) {
-      return;
-    }
+    if (!currentProject) return;
 
     modal.hidden = false;
     document.body.classList.add("gallery-modal-open");
@@ -166,14 +151,14 @@ function initGalleryModal() {
     text.textContent = currentProject.fullText;
 
     if (currentProject.youtube) {
-        videoWrapper.hidden = false;
-        video.src = currentProject.youtube;
-        videoTitle.textContent = currentProject.videoTitle || "Vidéo du projet";
-        } else {
-        videoWrapper.hidden = true;
-        video.src = "";
-        videoTitle.textContent = "";
-        }
+      videoWrapper.hidden = false;
+      video.src = currentProject.youtube;
+      videoTitle.textContent = currentProject.videoTitle || "Vidéo du projet";
+    } else {
+      videoWrapper.hidden = true;
+      video.src = "";
+      videoTitle.textContent = "";
+    }
 
     updateModalImage();
     startAutoSlide();
@@ -183,13 +168,14 @@ function initGalleryModal() {
     modal.hidden = true;
     document.body.classList.remove("gallery-modal-open");
     stopAutoSlide();
+
+    image.src = "";
+    imageLabel.textContent = "";
     video.src = "";
   }
 
   function changeImage(direction) {
-    if (!currentProject || currentProject.images.length <= 1) {
-      return;
-    }
+    if (!currentProject || currentProject.images.length <= 1) return;
 
     currentImageIndex =
       (currentImageIndex + direction + currentProject.images.length) %
@@ -200,27 +186,29 @@ function initGalleryModal() {
   }
 
   function updateModalImage() {
-  const currentImage = currentProject.images[currentImageIndex];
+    const currentImage = currentProject.images[currentImageIndex];
 
-  if (typeof currentImage === "string") {
-    image.src = currentImage;
-    image.alt = currentProject.alt;
-  } else {
-    image.src = currentImage.src;
-    image.alt = `${currentProject.alt} - ${currentImage.label}`;
+    if (typeof currentImage === "string") {
+      image.src = currentImage;
+      image.alt = currentProject.alt;
+      imageLabel.textContent = "";
+      imageLabel.hidden = true;
+    } else {
+      image.src = currentImage.src;
+      image.alt = `${currentProject.alt} - ${currentImage.label}`;
+      imageLabel.textContent = currentImage.label;
+      imageLabel.hidden = !currentImage.label;
+    }
+
+    const hasMultipleImages = currentProject.images.length > 1;
+    prevButton.style.display = hasMultipleImages ? "flex" : "none";
+    nextButton.style.display = hasMultipleImages ? "flex" : "none";
   }
-
-  const hasMultipleImages = currentProject.images.length > 1;
-  prevButton.style.display = hasMultipleImages ? "flex" : "none";
-  nextButton.style.display = hasMultipleImages ? "flex" : "none";
-}
 
   function startAutoSlide() {
     stopAutoSlide();
 
-    if (!currentProject || currentProject.images.length <= 1) {
-      return;
-    }
+    if (!currentProject || currentProject.images.length <= 1) return;
 
     autoSlideInterval = setInterval(() => {
       changeImage(1);

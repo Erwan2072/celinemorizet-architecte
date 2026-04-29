@@ -108,31 +108,31 @@ const galleryProjects = [
       "Rénovation complète d’une petite maison de ville située en cour intérieure à Rennes, repensée pour offrir de véritables espaces de vie familiaux.",
 
     fullText: `
-Maîtrise d’ouvrage : Privé
-Localisation : Rennes (35)
-Année de réalisation : 2024 / 2025
-Surface : 25 m²
-Durée étude : 16 mois
-Durée travaux : 11 mois
-(Chantier livré octobre 2025)
+        Maîtrise d’ouvrage : Privé
+        Localisation : Rennes (35)
+        Année de réalisation : 2024 / 2025
+        Surface : 25 m²
+        Durée étude : 16 mois
+        Durée travaux : 11 mois
+        (Chantier livré octobre 2025)
 
 
-Descriptif :
+        Descriptif :
 
-Mission complète
+        Mission complète
 
-Ce projet se situe dans une rue piétonne à Rennes, une petite maison de ville dans la cour d’un immeuble.
+        Ce projet se situe dans une rue piétonne à Rennes, une petite maison de ville dans la cour d’un immeuble.
 
-L’état des lieux : au RDC un garage inutilisable, au R+1 une pièce à vivre avec petite cuisine, au R+2 une chambre avec SDE.
+        L’état des lieux : au RDC un garage inutilisable, au R+1 une pièce à vivre avec petite cuisine, au R+2 une chambre avec SDE.
 
-La cliente souhaitait une maison fonctionnelle pour elle et ses filles, avec de vrais espaces de couchage et de vie.
+        La cliente souhaitait une maison fonctionnelle pour elle et ses filles, avec de vrais espaces de couchage et de vie.
 
-Le choix s’est donc tourné vers une dépose totale des plateaux, la famille a dû se déménager le temps des travaux.
+        Le choix s’est donc tourné vers une dépose totale des plateaux, la famille a dû se déménager le temps des travaux.
 
-La présence d’amiante a augmenté le temps de démolition/dépose.
+        La présence d’amiante a augmenté le temps de démolition/dépose.
 
-L’esquisse proposait de donner au RDC une réelle fonction de pièce à vivre avec un vrai espace de cuisine ; au R+1 une chambre parentale avec salle d’eau ouverte, dressing et toilettes indépendants ; au R+2 une chambre avec salle de bain indépendante équipée de sanitaires.
-`,
+        L’esquisse proposait de donner au RDC une réelle fonction de pièce à vivre avec un vrai espace de cuisine ; au R+1 une chambre parentale avec salle d’eau ouverte, dressing et toilettes indépendants ; au R+2 une chambre avec salle de bain indépendante équipée de sanitaires.
+        `,
   },
   /* #endregion Projet LR */
 
