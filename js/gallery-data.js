@@ -11,32 +11,236 @@ const galleryProjects = [
   /* EXTENSIONS */
   /* ================================================== */
 
-  /* #region Projet Extension bois */
+   /* #region Projet G */
   {
     category: "Extensions",
-    title: "Extension bois",
-    meta: "Extension • 2024",
-    cover: "assets/images/galerie/extension-01.webp",
+    title: "Projet G",
+    meta: "La Bouëxière (35) • 2022 / 2023",
+    cover: "assets/images/galerie/extensions/projet-g/apres-3.webp",
 
     images: [
-      "assets/images/galerie/extension-01.webp",
-      "assets/images/galerie/extension-02.webp"
+      {
+        src: "assets/images/galerie/extensions/projet-g/plan.webp",
+        label: "Plan"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-g/avant-1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-1b.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-1ter.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-g/avant-2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-2b.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-g/avant-3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-3.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-g/apres-3b.webp",
+        label: "Après"
+      }
     ],
 
-    alt: "Extension en ossature bois",
+    alt: "Projet G extension maison individuelle La Bouëxière",
 
     shortText:
-      "Agrandissement d’une habitation existante afin de créer un nouvel espace de vie lumineux...",
+      "Extension d’une maison individuelle à La Bouëxière, avec création d’un espace cuisine lumineux et restructuration globale du rez-de-chaussée.",
 
-    fullText:
-      "Agrandissement d’une habitation existante afin de créer un nouvel espace de vie lumineux et contemporain. Le projet s’attache à dialoguer avec le bâti existant tout en affirmant une écriture actuelle et mesurée.",
+    fullText: `
+      Maîtrise d’ouvrage : Privé
+      Localisation : La Bouëxière (35)
+      Année de réalisation : 2022 / 2023
+      Surface : 45 m²
+      Durée étude : 6 mois
+      Durée travaux : 6 mois
+      (Chantier livré mars 2023)
 
-    youtube: "https://www.youtube.com/embed/YdyQpB3Xp7w",
 
-    videoTitle:
-      "Présentation vidéo du projet"
+      Descriptif :
+
+      Mission complète
+
+      Les clients souhaitaient restructurer le rez-de-chaussée de leur habitation.
+
+      Suite aux différentes esquisses, le projet consiste à créer une extension d’une maison individuelle afin d’aménager un espace cuisine, ainsi qu’une extension du cellier.
+
+      Le projet apporte une réponse globale au rez-de-chaussée de l’habitation. Tous les sols et les peintures ont été repris, avec des pans de papier peint permettant de dynamiser et de marquer les espaces. L’objectif était d’harmoniser l’ensemble de l’étage. La salle de bain et la chambre parentale ont également été retravaillées.
+
+      La façade a été entièrement ouverte pour créer une liaison vers l’extension. Cette intervention permet de créer une véritable cuisine avec un coin repas pour cinq personnes, un apport de lumière naturelle grâce à une fenêtre au droit de l’évier, une porte-fenêtre donnant directement accès à la terrasse, ainsi qu’un puits de lumière.
+      `,
   },
-  /* #endregion Projet Extension bois */
+  /* #endregion Projet G */
+
+  /* #region Projet B */
+{
+  category: "Extensions",
+
+  title: "Projet B",
+
+  meta: "Vern-sur-Seiche (35) • 2024 / 2025",
+
+  cover: "assets/images/galerie/extensions/projet-b/apres7.webp",
+
+  images: [
+
+    {
+      src: "assets/images/galerie/extensions/projet-b/avant1.webp",
+      label: "Avant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/avant2.webp",
+      label: "Avant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant.webp",
+      label: "Pendant"
+    },
+
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant2.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant3.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant4.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant5.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant6.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant7.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant8.webp",
+      label: "Pendant"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/pendant10.webp",
+      label: "Pendant"
+    },
+
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres1.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres2.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres3.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres4.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres5.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres6.webp",
+      label: "Après"
+    },
+    {
+      src: "assets/images/galerie/extensions/projet-b/apres7.webp",
+      label: "Après"
+    }
+
+  ],
+
+  alt: "Projet B extension maison Vern-sur-Seiche",
+
+  shortText:
+    "Extension en ossature bois à Vern-sur-Seiche avec création d’un bureau, espace détente et rénovation complète des menuiseries.",
+
+  fullText: `
+    Maîtrise d’ouvrage : Privé
+    Localisation : Vern-sur-Seiche (35)
+    Année de réalisation : 2024 / 2025
+    Surface : 25 m²
+    Durée étude : 6 mois
+    Durée travaux : 7 mois
+    (Chantier livré mars 2025)
+
+
+    Descriptif :
+
+    Mission complète – limitée Hors eau Hors air.
+
+    Les aménagements intérieurs et l’isolation ont été réalisés en auto-construction par les clients.
+
+    Le projet consiste à créer une extension d’une maison individuelle afin d’aménager un espace bureau ainsi qu’un espace télévision.
+
+    L’ensemble des menuiseries extérieures a été repris, avec modification d’une ouverture existante et remplacement de la porte-fenêtre simple vantail de la cuisine par une porte-fenêtre double vantaux permettant un accès facilité à la terrasse et un meilleur apport de lumière naturelle.
+
+    L’extension se situe en limite de propriété sur une bande de trois mètres de large.
+
+    Le choix constructif s’est porté sur une ossature bois avec livraison par grue de panneaux préfabriqués en atelier.
+
+    Les pignons sont habillés d’un bardage bois type Douglas en pose à claire-voie. La façade mitoyenne reçoit un enduit de teinte identique à la maison existante.
+
+    Le projet a été livré brut intérieurement, les finitions étant réalisées par les clients.
+    `,
+
+      videos: [
+        {
+          title: "Vidéo chantier 1",
+          url: ""
+        },
+        {
+          title: "Vidéo chantier 2",
+          url: ""
+        },
+        {
+          title: "Vidéo chantier 3",
+          url: ""
+        },
+        {
+          title: "Vidéo chantier 4",
+          url: ""
+        }
+      ]
+},
+/* #endregion Projet B */
 
 
 
