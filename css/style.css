@@ -1536,6 +1536,37 @@ body.card-focus-active::after {
     font-size: 0.95rem;
   }
 }
+.gallery-video-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.gallery-video-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  border: 1px solid var(--border-light);
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  transition: background var(--transition-main), color var(--transition-main);
+}
+
+.gallery-video-button:hover {
+  background: var(--text-light);
+  color: var(--text-dark);
+}
+
+.gallery-video-button.is-disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
 
 /* #endregion */
 /* #region USEFUL LINKS PAGE */
