@@ -708,15 +708,13 @@ const galleryProjects = [
   /* ================================================== */
 
   /* #region Projet Étude conceptuelle */
-  {
+  /*{
     category: "Bâtiments Professionnels",
     title: "",
     meta: "",
     cover: "",
 
-    images: [
-      ""
-    ],
+    images: [""],
 
     alt: "",
 
@@ -725,7 +723,7 @@ const galleryProjects = [
 
     fullText:
       ""
-  }
+  }*/
   /* #endregion Projet Étude conceptuelle */
 
 
