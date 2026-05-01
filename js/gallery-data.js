@@ -701,7 +701,7 @@ const galleryProjects = [
         • Suivi de travaux et assistance à la réception
         `
     },
-/* #endregion Bar Restaurant Le Chasné */
+  /* #endregion Bar Restaurant Le Chasné */
 
   /* ================================================== */
   /* BÂTIMENTS PROFESSIONNELS */
