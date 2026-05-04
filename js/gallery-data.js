@@ -1026,19 +1026,19 @@ const galleryProjects = [
 
     images: [
 
-      {
-        src: "assets/images/galerie/renovation/projet-j/pendant1.webp",
-        label: "Avant"
-      },
+
       {
         src: "assets/images/galerie/renovation/projet-j/avant1.webp",
         label: "Avant"
       },
       {
+        src: "assets/images/galerie/renovation/projet-j/pendant1.webp",
+        label: "Pendant"
+      },
+      {
         src: "assets/images/galerie/renovation/projet-j/apres1.webp",
         label: "Après"
       },
-
       {
         src: "assets/images/galerie/renovation/projet-j/avant2.webp",
         label: "Avant"
@@ -1048,8 +1048,8 @@ const galleryProjects = [
         label: "Après"
       },
       {
-        src: "assets/images/galerie/renovation/projet-j/avant2b.webp",
-        label: "Avant"
+        src: "assets/images/galerie/renovation/projet-j/apres2b.webp",
+        label: "Après"
       },
 
       {
@@ -1354,13 +1354,12 @@ const galleryProjects = [
         src: "assets/images/galerie/commerces/centre-loisirs/apres1.webp",
         label: "Après"
       },
-
       {
-        src: "assets/images/galerie/commerces/centre-loisirs/avant2.webp",
+        src: "assets/images/galerie/commerces/centre-loisirs/apres2.webp",
         label: "Avant"
       },
       {
-        src: "assets/images/galerie/commerces/centre-loisirs/apres2.webp",
+        src: "assets/images/galerie/commerces/centre-loisirs/avant2.webp",
         label: "Après"
       },
 
@@ -1598,10 +1597,6 @@ const galleryProjects = [
         label: "Avant"
       },
       {
-        src: "assets/images/galerie/commerces/boulangerie-marcille/pendant.webp",
-        label: "Pendant"
-      },
-      {
         src: "assets/images/galerie/commerces/boulangerie-marcille/apres.webp",
         label: "Après"
       },
@@ -1612,6 +1607,14 @@ const galleryProjects = [
       },
       {
         src: "assets/images/galerie/commerces/boulangerie-marcille/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/pendant.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant4.webp",
         label: "Pendant"
       },
       {
@@ -1635,11 +1638,6 @@ const galleryProjects = [
       {
         src: "assets/images/galerie/commerces/boulangerie-marcille/apres3.webp",
         label: "Après"
-      },
-
-      {
-        src: "assets/images/galerie/commerces/boulangerie-marcille/avant4.webp",
-        label: "Avant"
       }
     ],
 
