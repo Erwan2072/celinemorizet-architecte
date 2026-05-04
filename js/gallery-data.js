@@ -154,10 +154,6 @@ const galleryProjects = [
         label: "Après"
       },
       {
-        src: "assets/images/galerie/extensions/projet-b/apres2.webp",
-        label: "Après"
-      },
-      {
         src: "assets/images/galerie/extensions/projet-b/apres3.webp",
         label: "Après"
       },
