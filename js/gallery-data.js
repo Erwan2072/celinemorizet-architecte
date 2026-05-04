@@ -40,6 +40,10 @@ const galleryProjects = [
         label: "Avant"
       },
       {
+        src: "assets/images/galerie/extensions/projet-md/apres5.webp",
+        label: "Après"
+      },
+      {
         src: "assets/images/galerie/extensions/projet-md/pendant1.webp",
         label: "Pendant"
       },
@@ -55,11 +59,8 @@ const galleryProjects = [
       {
         src: "assets/images/galerie/extensions/projet-md/apres4.webp",
         label: "Après"
-      },
-      {
-        src: "assets/images/galerie/extensions/projet-md/apres5.webp",
-        label: "Après"
       }
+
     ],
 
     alt: "Projet MD surélévation bois maison Liffré",
@@ -1029,7 +1030,7 @@ const galleryProjects = [
     cover: "assets/images/galerie/renovation/projet-j/apres3.webp",
 
     images: [
-      
+
       {
         src: "assets/images/galerie/renovation/projet-j/pendant1.webp",
         label: "Avant"
@@ -1822,16 +1823,16 @@ const galleryProjects = [
 
   Les différentes fonctions du bâtiment sont clairement lisibles depuis l’extérieur :
 
-  • Un volume en bardage métallique destiné à l’entrepôt  
-  • Un bâtiment gris servant de zone de stockage  
-  • Un bâtiment bleu regroupant les bureaux et les espaces de pause  
+  • Un volume en bardage métallique destiné à l’entrepôt
+  • Un bâtiment gris servant de zone de stockage
+  • Un bâtiment bleu regroupant les bureaux et les espaces de pause
 
   Le choix des couleurs est directement issu du logo de l’entreprise, permettant de renforcer son identité visuelle au sein de la zone artisanale.
   `
   },
   /* #endregion Projet EURL GOUPIL */
 
- 
+
 
 
 ];
