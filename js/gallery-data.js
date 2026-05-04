@@ -234,6 +234,139 @@ const galleryProjects = [
   },
   /* #endregion Projet B */
 
+  /* #region Chaufferie école de la Choinette */
+  {
+    category: "Extensions",
+
+    title: "Chaufferie école de la Choinette",
+
+    meta: "Chasné-sur-Illet (35) • 2023 / 2024",
+
+    cover: "assets/images/galerie/extensions/projet-ecole-de-la-choinette/1.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-ecole-de-la-choinette/1.webp",
+        label: "Projet"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-ecole-de-la-choinette/2.webp",
+        label: "Projet"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-ecole-de-la-choinette/3.webp",
+        label: "Projet"
+      }
+    ],
+
+    alt: "Chaufferie école de la Choinette Chasné-sur-Illet extension chauffage bois",
+
+    shortText:
+      "Création d’une extension technique pour accueillir un système de chauffage bois et le stockage des granulés.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Public
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2023 / 2024
+  Durée étude : 6 mois
+  Durée travaux : 6 mois
+  (Chantier livré février 2024)
+
+  Cotraitance avec le cabinet Nicolas Chambon et le bureau d’études IMPULSE
+
+
+  Descriptif :
+
+  Le système de chauffage de l’école et de la médiathèque étant devenu obsolète, la mairie de Chasné-sur-Illet a choisi, après audit, de se tourner vers un système de chauffage au bois.
+
+  Le local chaufferie existant était insuffisant en surface pour accueillir deux chaudières fonctionnant de manière successive, ainsi que le stockage des granulés nécessaires au fonctionnement de l’installation.
+
+  Le projet a donc consisté à créer une extension permettant le stockage des granulés, avec des vis sans fin assurant leur acheminement vers les chaudières.
+
+  Cette nouvelle installation permet de reprendre le réseau de chauffage de l’école existante ainsi que celui de la médiathèque, la partie neuve ayant anticipé cette évolution technique.
+  `
+  },
+  /* #endregion Chaufferie école de la Choinette */
+
+  /* #region Projet L */
+  {
+    category: "Extensions",
+
+    title: "Projet L",
+
+    meta: "Betton (35) • 2023 / 2024",
+
+    cover: "assets/images/galerie/extensions/projet-l/apres.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-l/avant.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/apres.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/5.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/6.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-l/apres1.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet L extension maison Betton pièce de vie chambre accessible",
+
+    shortText:
+      "Extension d’une maison à Betton, pensée comme agrandissement de la pièce de vie puis comme future chambre accessible.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Betton (35)
+  Année de réalisation : 2023 / 2024
+  Surface : 28 m²
+  Durée étude : 12 mois
+  Durée travaux : 6 mois
+  (Chantier livré avril 2024)
+
+
+  Descriptif :
+
+  Mission complète
+
+  Le projet consiste à créer une extension utilisée dans un premier temps comme agrandissement de la pièce de vie, puis dans un second temps comme chambre accessible avec création d’une salle d’eau.
+
+  L’objectif était d’agrandir l’habitation sans perdre de lumière naturelle dans la partie existante.
+
+  Le choix architectural a donc été de créer l’extension côté rue, dans le respect des règles du PLU, avec une salle d’eau adaptable, une nouvelle entrée et deux grands puits de lumière.
+
+  Le rez-de-chaussée a été repeint dans son entièreté et une verrière a été construite au droit de l’escalier existant.
+  `
+  },
+  /* #endregion Projet L */
+
    /* #region Projet G */
   {
     category: "Extensions",
@@ -777,6 +910,192 @@ const galleryProjects = [
       },
   /* #endregion Projet K */
 
+  /* #region Projet LN A */
+  {
+    category: "Rénovation",
+
+    title: "Projet LN A",
+
+    meta: "Val d’Izé (35) • 2023 / 2025",
+
+    cover: "assets/images/galerie/renovation/projet-ln-a/apres4.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/apres1.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/apres2.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/pendant3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/pendant3-2.webp",
+        label: "Pendant"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/apres3.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/apres3b.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/avant4.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/apres4.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/1.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-ln-a/3.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet LN A rénovation maison Val d’Izé aménagement complet",
+
+    shortText:
+      "Rénovation complète et aménagement d’une maison à Val d’Izé avec création de nouveaux espaces de vie.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Val d’Izé (35)
+  Année de réalisation : 2023 / 2025
+  Surface : 250 m²
+  Durée étude : 14 mois
+  Durée travaux : 14 mois – en deux phases
+  (Chantier livré mai 2025)
+
+
+  Descriptif :
+
+  Mission complète
+
+  Le projet consistait à rénover une partie de la maison existante et à aménager des volumes non habités.
+
+  Les travaux ont nécessité la création d’ouvertures dans des murs en pierre, la réalisation d’un escalier et la création de pièces d’eau.
+
+  La première phase a concerné l’aménagement de la partie non habitée :
+  au rez-de-chaussée, création d’une chambre parentale avec une grande salle de bain (baignoire et douche), un dressing, une pièce de rangement, des sanitaires indépendants et une liaison avec l’existant.
+
+  À l’étage, création de deux chambres, d’un espace ouvert sur l’escalier, d’une salle d’eau, d’un WC indépendant ainsi que d’une liaison avec la partie existante.
+
+  Dans un second temps, l’étage existant a été entièrement réaménagé :
+  les chambres ont été rénovées et deux pièces ont été regroupées pour créer une grande chambre, avec une verrière permettant de séparer l’espace nuit du bureau/dressing tout en conservant un maximum de lumière naturelle.
+  `
+  },
+  /* #endregion Projet LN A */
+
+  /* #region Projet J */
+  {
+    category: "Rénovation",
+
+    title: "Projet J",
+
+    meta: "Chasné-sur-Illet (35) • 2022 / 2025",
+
+    cover: "assets/images/galerie/renovation/projet-j/apres3.webp",
+
+    images: [
+      
+      {
+        src: "assets/images/galerie/renovation/projet-j/pendant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-j/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-j/apres1.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-j/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-j/apres2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-j/avant2b.webp",
+        label: "Avant"
+      },
+
+      {
+        src: "assets/images/galerie/renovation/projet-j/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-j/apres3.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet J rénovation maison Chasné-sur-Illet espace de vie cuisine",
+
+    shortText:
+      "Rénovation d’une maison à Chasné-sur-Illet avec ouverture des espaces de vie vers la véranda existante.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2022 / 2025
+  Surface : 25 m²
+  Durée étude : 16 mois
+  Durée travaux : 4 mois
+  (Chantier livré avril 2025)
+
+
+  Descriptif :
+
+  Mission complète
+
+  Après différentes esquisses et plusieurs déconvenues liées au système de chauffage ainsi qu’à la couverture existante, qui n’était pas aux normes, le projet a évolué sur plusieurs mois.
+
+  Lorsque la décision de démarrer les travaux a été prise, l’objectif a d’abord été de corriger les éléments qui posaient problème et qui grevaient le projet, notamment le chauffage et la couverture.
+
+  Une fois ces points traités, le projet a pu évoluer afin d’offrir à la famille un grand espace de vie et une cuisine adaptée à ses usages.
+
+  La maison existante a été ouverte au maximum vers la véranda, permettant de créer des espaces de vie plus généreux et plus lumineux.
+  `
+  },
+  /* #endregion Projet J */
+
   /* #region Projet Maison S */
     {
       category: "Rénovation",
@@ -952,13 +1271,13 @@ const galleryProjects = [
     },
   /* #endregion Maison de services */
 
-  /* #region École 3 classes */
+  /* #region École 3 classes + pôle administratif */
   {
     category: "Commerces / Activités",
 
-    title: "École – 3 classes supplémentaires",
+    title: "École – 3 classes + pôle administratif",
 
-    meta: "Chasné-sur-Illet (35)",
+    meta: "Chasné-sur-Illet (35) • 2020 / 2024",
 
     cover: "assets/images/galerie/commerces/ecole-3-classes/16.webp",
 
@@ -982,16 +1301,43 @@ const galleryProjects = [
       { src: "assets/images/galerie/commerces/ecole-3-classes/17.webp" }
     ],
 
-    alt: "Extension école Chasné-sur-Illet création de 3 classes supplémentaires",
+    alt: "École Chasné-sur-Illet construction 3 classes et pôle administratif",
 
     shortText:
-      "Construction de trois classes supplémentaires pour répondre à l’évolution des besoins scolaires.",
+      "Construction de trois classes supplémentaires et d’un pôle administratif pour l’école de la Choinette.",
 
     fullText: `
-  Projet de construction de trois classes supplémentaires pour l’école de Chasné-sur-Illet.
+  Maîtrise d’ouvrage : Public
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2020 / 2024
+  Surface : 347 m²
+  Durée étude : 12 mois
+  Durée travaux : 15 mois
+  (Chantier livré mars 2024)
+
+  Cotraitance avec le cabinet Lefort Architectes et le bureau d’études ITH
+
+
+  Descriptif :
+
+  La mairie de Chasné-sur-Illet a lancé un appel d’offres en deux phases pour le site de l’école de la Choinette.
+
+  La première phase concernait la construction d’un restaurant scolaire avec self, dont le chantier a connu plusieurs arrêts liés au contexte sanitaire.
+
+  La deuxième phase consistait en la construction de trois salles de classes et d’un pôle administratif (salle de pause, bureau de la directrice, hall d’entrée), en remplacement de trois algécos utilisés comme classes.
+
+  Le projet a été réalisé en structure bois et fonctionne en lien avec le restaurant scolaire ainsi qu’un bâtiment existant accueillant deux classes et des sanitaires.
+
+  Chaque classe répond aux nouvelles normes de surface, d’accessibilité PMR, et dispose de sanitaires et de vestiaires.
+
+  Le projet initial n’a pas été entièrement réalisé : le préau prévu n’a pas été retenu en raison de l’augmentation des coûts des matériaux pendant la période COVID.
+
+  Le bardage bois reprend celui du restaurant scolaire afin d’assurer une cohérence architecturale entre les différents bâtiments.
+
+  Un préau au niveau du hall d’entrée a néanmoins été conçu pour créer une liaison entre le bâtiment des classes et celui du restaurant scolaire.
   `
   },
-  /* #endregion École 3 classes */
+  /* #endregion École 3 classes + pôle administratif */
 
   /* #region Centre de loisirs */
   {
@@ -1356,6 +1702,65 @@ const galleryProjects = [
   /* BÂTIMENTS PROFESSIONNELS */
   /* ================================================== */
 
+
+   /* #region Projet PROBOIS CONCEPT BOIS */
+  {
+    category: "Bâtiments Professionnels",
+
+    title: "Probois Concept Bois",
+
+    meta: "La Bouexière (35) • 2023 / 2024",
+
+    cover: "assets/images/galerie/batiment-pro/projet-probois/apres.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/batiment-pro/projet-probois/avant.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-probois/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-probois/pendant2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-probois/apres.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet Probois Concept Bois bâtiment professionnel La Bouexière",
+
+    shortText:
+      "Construction d’un bâtiment professionnel combinant entrepôt et espaces de bureaux pour l’entreprise Probois Concept Bois.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : La Bouexière (35)
+  Année de réalisation : 2023 / 2024
+  Surface : 428 m²
+  Durée étude : 8 mois
+  Durée travaux : 8 mois
+  (Chantier livré avril 2024)
+
+
+  Descriptif :
+
+  Mission complète (certains lots restant à la charge de l’entreprise)
+
+  L’entreprise Probois Concept Bois intervient dans la pose de menuiseries, l’isolation, la cloison sèche, l’ITE et le bardage.
+
+  La première esquisse a été validée immédiatement par le client, qui souhaitait un entrepôt en bardage métallique ainsi qu’un espace bureaux et salle de pause.
+
+  Afin de valoriser le savoir-faire de l’entreprise, le choix du bardage permet d’identifier clairement la typologie du bâtiment et de marquer visuellement l’entrée.
+  `
+  },
+  /* #endregion Projet PROBOIS CONCEPT BOIS */
+
+
   /* #region Projet EURL GOUPIL */
   {
     category: "Bâtiments Professionnels",
@@ -1425,6 +1830,8 @@ const galleryProjects = [
   `
   },
   /* #endregion Projet EURL GOUPIL */
+
+ 
 
 
 ];
