@@ -305,6 +305,10 @@ const galleryProjects = [
         label: "Après"
       },
       {
+        src: "assets/images/galerie/extensions/projet-l/avant1.webp",
+        label: "Avant"
+      },
+      {
         src: "assets/images/galerie/extensions/projet-l/1.webp",
         label: "Pendant"
       },
@@ -323,10 +327,6 @@ const galleryProjects = [
       {
         src: "assets/images/galerie/extensions/projet-l/6.webp",
         label: "Pendant"
-      },
-      {
-        src: "assets/images/galerie/extensions/projet-l/avant1.webp",
-        label: "Avant"
       },
       {
         src: "assets/images/galerie/extensions/projet-l/apres1.webp",
