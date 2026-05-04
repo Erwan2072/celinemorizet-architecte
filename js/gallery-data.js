@@ -210,24 +210,24 @@ const galleryProjects = [
       Le projet a été livré brut intérieurement, les finitions étant réalisées par les clients.
       `,
 
-        videos: [
-          {
-            title: "Vidéo chantier 1",
-            url: ""
-          },
-          {
-            title: "Vidéo chantier 2",
-            url: ""
-          },
-          {
-            title: "Vidéo chantier 3",
-            url: ""
-          },
-          {
-            title: "Vidéo chantier 4",
-            url: ""
-          }
-        ]
+    videos: [
+      {
+        title: "Vidéo chantier 1",
+        url: ""
+      },
+      {
+        title: "Vidéo chantier 2",
+        url: ""
+      },
+      {
+        title: "Vidéo chantier 3",
+        url: ""
+      },
+      {
+        title: "Vidéo chantier 4",
+        url: ""
+      }
+    ]
   },
   /* #endregion Projet B */
 
@@ -364,7 +364,7 @@ const galleryProjects = [
   },
   /* #endregion Projet L */
 
-   /* #region Projet G */
+  /* #region Projet G */
   {
     category: "Extensions",
     title: "Projet G",
@@ -475,6 +475,14 @@ const galleryProjects = [
         label: "Pendant"
       },
       {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres4.webp",
+        label: "Après"
+      },
+      {
         src: "assets/images/galerie/extensions/projet-lf-chantepie/avant1.webp",
         label: "Avant"
       },
@@ -486,15 +494,6 @@ const galleryProjects = [
         src: "assets/images/galerie/extensions/projet-lf-chantepie/apres2.webp",
         label: "Après"
       },
-      {
-        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres3.webp",
-        label: "Pendant"
-      },
-      {
-        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres4.webp",
-        label: "Après"
-      },
-
       {
         src: "assets/images/galerie/extensions/projet-lf-chantepie/suite-parentale.webp",
         label: "Après"
@@ -560,57 +559,57 @@ const galleryProjects = [
   /* #endregion Projet LF */
 
   /* #region Projet R */
-    {
-      category: "Extensions",
+  {
+    category: "Extensions",
 
-      title: "Projet R",
+    title: "Projet R",
 
-      meta: "La Bouëxière (35) • 2020 / 2023",
+    meta: "La Bouëxière (35) • 2020 / 2023",
 
-      cover: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
+    cover: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
 
-      images: [
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-avant.webp",
-          label: "Plan avant"
-        },
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-apres.webp",
-          label: "Plan après"
-        },
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-avant.webp",
+        label: "Plan avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-apres.webp",
+        label: "Plan après"
+      },
 
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
-          label: "Pendant"
-        },
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/2.webp",
-          label: "Pendant"
-        },
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/4.webp",
-          label: "Pendant"
-        },
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/5.webp",
-          label: "Pendant"
-        },
-         {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/3.webp",
-          label: "Après"
-        },
-        {
-          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/6.webp",
-          label: "Après"
-        }
-      ],
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/4.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/5.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/3.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-r-la-bouexiere/6.webp",
+        label: "Après"
+      }
+    ],
 
-      alt: "Projet R extension maison La Bouëxière",
+    alt: "Projet R extension maison La Bouëxière",
 
-      shortText:
-        "Extension et réorganisation complète du rez-de-chaussée d’une maison afin d’ouvrir les espaces de vie sur le jardin.",
+    shortText:
+      "Extension et réorganisation complète du rez-de-chaussée d’une maison afin d’ouvrir les espaces de vie sur le jardin.",
 
-      fullText: `
+    fullText: `
         Maîtrise d’ouvrage : Privé
         Localisation : La Bouëxière (35)
         Année de réalisation : 2020 / 2023
@@ -634,10 +633,10 @@ const galleryProjects = [
 
         L’extension accueille à la fois la nouvelle cuisine et un prolongement du séjour, avec un véritable coin repas ouvert sur le jardin et sur une terrasse.
         `
-    },
+  },
   /* #endregion Projet R */
 
-   /* #region Projet V */
+  /* #region Projet V */
   {
     category: "Extensions",
 
@@ -819,74 +818,74 @@ const galleryProjects = [
   /* #endregion Projet LR */
 
   /* #region Projet K */
+  {
+    category: "Rénovation",
+    title: "Projet K",
+    meta: "Chantepie (35) • 2024 / 2025",
+    cover: "assets/images/galerie/renovation/projet-k/apres5.webp",
+
+    images: [
       {
-        category: "Rénovation",
-        title: "Projet K",
-        meta: "Chantepie (35) • 2024 / 2025",
-        cover: "assets/images/galerie/renovation/projet-k/apres5.webp",
+        src: "assets/images/galerie/renovation/projet-k/plan.webp",
+        label: "Plan"
+      },
 
-        images: [
-          {
-            src: "assets/images/galerie/renovation/projet-k/plan.webp",
-            label: "Plan"
-          },
+      {
+        src: "assets/images/galerie/renovation/projet-k/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres1.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres1b.webp",
+        label: "Après"
+      },
 
-          {
-            src: "assets/images/galerie/renovation/projet-k/avant1.webp",
-            label: "Avant"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres1.webp",
-            label: "Après"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres1b.webp",
-            label: "Après"
-          },
+      {
+        src: "assets/images/galerie/renovation/projet-k/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres2b.webp",
+        label: "Après"
+      },
 
-          {
-            src: "assets/images/galerie/renovation/projet-k/avant2.webp",
-            label: "Avant"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres2.webp",
-            label: "Après"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres2b.webp",
-            label: "Après"
-          },
+      {
+        src: "assets/images/galerie/renovation/projet-k/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres3.webp",
+        label: "Après"
+      },
 
-          {
-            src: "assets/images/galerie/renovation/projet-k/avant3.webp",
-            label: "Avant"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres3.webp",
-            label: "Après"
-          },
+      {
+        src: "assets/images/galerie/renovation/projet-k/avant4.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres4.webp",
+        label: "Après"
+      },
 
-          {
-            src: "assets/images/galerie/renovation/projet-k/avant4.webp",
-            label: "Avant"
-          },
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres4.webp",
-            label: "Après"
-          },
+      {
+        src: "assets/images/galerie/renovation/projet-k/apres5.webp",
+        label: "Après"
+      }
+    ],
 
-          {
-            src: "assets/images/galerie/renovation/projet-k/apres5.webp",
-            label: "Après"
-          }
-        ],
+    alt: "Projet K rénovation studio indépendant Chantepie",
 
-        alt: "Projet K rénovation studio indépendant Chantepie",
+    shortText:
+      "Transformation d’un rez-de-jardin d’une maison des années 70 en studio indépendant destiné à la location.",
 
-        shortText:
-          "Transformation d’un rez-de-jardin d’une maison des années 70 en studio indépendant destiné à la location.",
-
-        fullText: `
+    fullText: `
     Maîtrise d’ouvrage : Privé
     Localisation : Chantepie (35)
     Année de réalisation : 2024 / 2025
@@ -904,7 +903,7 @@ const galleryProjects = [
 
     Une porte d’entrée indépendante a été créée afin de donner une totale autonomie au logement par rapport à la maison principale.
     `,
-      },
+  },
   /* #endregion Projet K */
 
   /* #region Projet LN A */
@@ -1094,84 +1093,84 @@ const galleryProjects = [
   /* #endregion Projet J */
 
   /* #region Projet Maison S */
-    {
-      category: "Rénovation",
+  {
+    category: "Rénovation",
 
-      title: "Projet Maison S",
+    title: "Projet Maison S",
 
-      meta: "Betton (35) • 2022",
+    meta: "Betton (35) • 2022",
 
-      cover: "assets/images/galerie/renovation/projet-maison-s/apres3.webp",
+    cover: "assets/images/galerie/renovation/projet-maison-s/apres3.webp",
 
-      images: [
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant1.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres1.webp",
-          label: "Après"
-        },
+    images: [
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres1.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant2.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres2.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres2.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant3.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres3.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres3.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant4.webp",
-          label: "Avant"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant4.webp",
+        label: "Avant"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant41.webp",
-          label: "Avant"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant41.webp",
+        label: "Avant"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/avant42.webp",
-          label: "Avant"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/avant42.webp",
+        label: "Avant"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres51.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres51.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres52.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres52.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres53.webp",
-          label: "Après"
-        },
-        {
-          src: "assets/images/galerie/renovation/projet-maison-s/apres54.webp",
-          label: "Après"
-        },
-      ],
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres53.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/renovation/projet-maison-s/apres54.webp",
+        label: "Après"
+      },
+    ],
 
-      alt: "Projet Maison S rénovation intérieure Betton",
+    alt: "Projet Maison S rénovation intérieure Betton",
 
-      shortText:
-        "Aménagement d’une grange en espace bureau et salon chaleureux avec mezzanine et mobilier sur mesure.",
+    shortText:
+      "Aménagement d’une grange en espace bureau et salon chaleureux avec mezzanine et mobilier sur mesure.",
 
-      fullText: `
+    fullText: `
     Maîtrise d’ouvrage : Privé
     Localisation : Betton (35)
     Année de réalisation : 2022
@@ -1192,7 +1191,7 @@ const galleryProjects = [
 
     Un papier peint floral ainsi que la mise en peinture du conduit de cheminée apportent une ambiance chaleureuse à la pièce, renforcée par la pose d’un parquet bois et d’une cheminée pouvant être utilisée ouverte ou fermée grâce à une vitre escamotable.
     `
-    },
+  },
   /* #endregion Projet Maison S */
 
 
@@ -1202,50 +1201,50 @@ const galleryProjects = [
   /* ================================================== */
 
   /* #region Maison de services */
-    {
-      category: "Commerces / Activités",
+  {
+    category: "Commerces / Activités",
 
-      title: "Maison de services",
+    title: "Maison de services",
 
-      meta: "Chasné-sur-Illet (35) • 2020 / 2021",
+    meta: "Chasné-sur-Illet (35) • 2020 / 2021",
 
-      cover: "assets/images/galerie/commerces/maisondeservices/apres3.webp",
+    cover: "assets/images/galerie/commerces/maisondeservices/apres3.webp",
 
-      images: [
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/avant1.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/apres1.webp",
-          label: "Après"
-        },
+    images: [
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/apres1.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/avant2.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/apres2.webp",
-          label: "Après"
-        },
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/apres2b.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/apres2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/apres2b.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/maisondeservices/apres3.webp",
-          label: "Après"
-        }
-      ],
+      {
+        src: "assets/images/galerie/commerces/maisondeservices/apres3.webp",
+        label: "Après"
+      }
+    ],
 
-      alt: "Maison de services Chasné-sur-Illet rénovation bâtiment public",
+    alt: "Maison de services Chasné-sur-Illet rénovation bâtiment public",
 
-      shortText:
-        "Transformation d’un ancien bar communal en espace de bureaux et salle de réunion pour la mairie.",
+    shortText:
+      "Transformation d’un ancien bar communal en espace de bureaux et salle de réunion pour la mairie.",
 
-      fullText: `
+    fullText: `
     Maîtrise d’ouvrage : Public
     Localisation : Chasné-sur-Illet (35)
     Année de réalisation : 2020 / 2021
@@ -1265,7 +1264,7 @@ const galleryProjects = [
 
     Aujourd’hui, cet espace accueille deux bureaux, une salle de réunion ainsi qu’un espace convivialité destiné aux échanges et à l’accueil.
     `
-    },
+  },
   /* #endregion Maison de services */
 
   /* #region École 3 classes + pôle administratif */
@@ -1483,77 +1482,77 @@ const galleryProjects = [
   /* #endregion Restaurant scolaire */
 
   /* #region Bar Restaurant Le Chasné */
-    {
-      category: "Commerces / Activités",
+  {
+    category: "Commerces / Activités",
 
-      title: "Bar Restaurant Le Chasné",
+    title: "Bar Restaurant Le Chasné",
 
-      meta: "Chasné-sur-Illet (35) • 2018 / 2019",
+    meta: "Chasné-sur-Illet (35) • 2018 / 2019",
 
-      cover: "assets/images/galerie/commerces/bar_chasne/apres7.webp",
+    cover: "assets/images/galerie/commerces/bar_chasne/apres7.webp",
 
-      images: [
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/avant1.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres1.webp",
-          label: "Après"
-        },
+    images: [
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres1.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/avant2.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres2.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres2.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/avant3.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres3.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres3.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/avant4.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres4.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/avant4.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres4.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/avant5.webp",
-          label: "Avant"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres5.webp",
-          label: "Après"
-        },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/avant5.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres5.webp",
+        label: "Après"
+      },
 
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres6.webp",
-          label: "Après"
-        },
-        {
-          src: "assets/images/galerie/commerces/bar_chasne/apres7.webp",
-          label: "Après"
-        }
-      ],
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres6.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/commerces/bar_chasne/apres7.webp",
+        label: "Après"
+      }
+    ],
 
-      alt: "Bar Restaurant Le Chasné rénovation commerce Chasné-sur-Illet",
+    alt: "Bar Restaurant Le Chasné rénovation commerce Chasné-sur-Illet",
 
-      shortText:
-        "Rénovation complète d’un ancien bar-tabac communal afin de relancer un commerce de proximité attractif.",
+    shortText:
+      "Rénovation complète d’un ancien bar-tabac communal afin de relancer un commerce de proximité attractif.",
 
-      fullText: `
+    fullText: `
         Maîtrise d’ouvrage : Public
         Localisation : Chasné-sur-Illet (35)
         Année de réalisation : 2018 / 2019
@@ -1580,7 +1579,7 @@ const galleryProjects = [
         • EXE : élaboration des plans d’exécution
         • Suivi de travaux et assistance à la réception
         `
-    },
+  },
   /* #endregion Bar Restaurant Le Chasné */
 
   /* #region Boulangerie Marcillé Robert */
@@ -1700,7 +1699,7 @@ const galleryProjects = [
   /* ================================================== */
 
 
-   /* #region Projet PROBOIS CONCEPT BOIS */
+  /* #region Projet PROBOIS CONCEPT BOIS */
   {
     category: "Bâtiments Professionnels",
 
