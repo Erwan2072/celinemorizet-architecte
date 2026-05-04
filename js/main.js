@@ -75,7 +75,7 @@ function activateTab(button, targetPanel, tabPanels) {
 /* Recherche rapide : ACTIVE CARD */
 /* ================================================== */
 function initActiveCards() {
-  const cards = document.querySelectorAll('.prestation-card');
+  const cards = document.querySelectorAll('.prestation-card:not(.gallery-project-card)');
   const closeButtons = document.querySelectorAll('.card-close');
 
   if (!cards.length) return;
@@ -151,7 +151,7 @@ function resetActiveCards() {
   grids.forEach((grid) => {
     grid.classList.remove('has-active-card');
 
-    const cards = grid.querySelectorAll('.prestation-card');
+    const cards = grid.querySelectorAll('.prestation-card:not(.gallery-project-card)');
     cards.forEach((card) => {
       card.classList.remove('is-active');
     });
