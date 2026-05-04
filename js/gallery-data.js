@@ -11,6 +11,85 @@ const galleryProjects = [
   /* EXTENSIONS */
   /* ================================================== */
 
+  /* #region Projet MD */
+  {
+    category: "Extensions",
+
+    title: "Projet MD",
+
+    meta: "Liffré (35) • 2024 / 2025",
+
+    cover: "assets/images/galerie/extensions/projet-md/apres5.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-md/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/pendant.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/apres1.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-md/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/apres2.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-md/apres3.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/apres4.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-md/apres5.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet MD surélévation bois maison Liffré",
+
+    shortText:
+      "Création d’une surélévation bois à Liffré pour aménager une chambre et un espace jeux, livrée hors eau hors air.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Liffré (35)
+  Année de réalisation : 2024 / 2025
+  Surface : 27 m²
+  Durée étude : 10 mois
+  Durée travaux : 4 mois
+  (Chantier livré novembre 2025)
+
+
+  Descriptif :
+
+  Mission complète – limitée au hors eau hors air, pour l’enveloppe de l’extension.
+
+  Le projet consistait à créer de la surface supplémentaire afin d’aménager une chambre ainsi qu’un espace de jeux pouvant ponctuellement servir de chambre.
+
+  Le client souhaitait prendre en charge lui-même les travaux d’isolation intérieure, d’électricité, de plomberie et les aménagements complémentaires.
+
+  La mission a donc porté sur la création d’une surélévation en bois, comprenant les planchers intermédiaires, la pose de la couverture et des fenêtres de toit, ainsi que l’isolation par l’extérieur de la partie surélevée.
+  `
+  },
+  /* #endregion Projet MD */
+
   /* #region Projet B */
   {
     category: "Extensions",
@@ -241,6 +320,277 @@ const galleryProjects = [
       `,
   },
   /* #endregion Projet G */
+
+  /* #region Projet LF */
+  {
+    category: "Extensions",
+
+    title: "Projet LF",
+
+    meta: "Chantepie (35) • 2021 / 2022",
+
+    cover: "assets/images/galerie/extensions/projet-lf-chantepie/exterieur-fini.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/avant.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/pendant2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres1.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres4.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/suite-parentale.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/suite-parentale-RDC.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/avant-chambre-etage.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/apres-chambre-etage.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/2.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-lf-chantepie/exterieur-fini.webp",
+        label: "Après"
+      },
+    ],
+
+    alt: "Projet LF extension maison Chantepie suite parentale surélévation",
+
+    shortText:
+      "Extension d’une maison à Chantepie avec création d’une suite parentale, rénovation du rez-de-chaussée et surélévation de toiture.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Chantepie (35)
+  Année de réalisation : 2021 / 2022
+  Surface : 27 m² d’extension
+  Durée étude : 12 mois
+  Durée travaux : 8 mois
+  (Chantier livré juin 2022)
+
+
+  Descriptif :
+
+  Mission complète
+
+  Le projet consistait à rénover une partie de la maison existante, à créer une extension pour une chambre parentale et à surélever la toiture afin d’augmenter la surface des chambres à l’étage.
+
+  Les travaux ont été réalisés en milieu habité.
+
+  La première phase du chantier a porté sur la création de l’extension. Celle-ci accueille la chambre parentale. L’ancien bureau est transformé en dressing et l’accès à la salle de bain existante est modifié.
+
+  Au rez-de-chaussée, le mur de façade séparant la véranda de la pièce de vie et de la cuisine a été élargi afin d’apporter davantage de lumière naturelle dans les espaces existants.
+
+  La surélévation d’un pan entier de la couverture permet de redonner à deux chambres existantes une surface plus confortable.
+
+  Le ravalement ne faisait pas partie de la mission.
+  `
+  },
+  /* #endregion Projet LF */
+
+  /* #region Projet R */
+    {
+      category: "Extensions",
+
+      title: "Projet R",
+
+      meta: "La Bouëxière (35) • 2020 / 2023",
+
+      cover: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
+
+      images: [
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-avant.webp",
+          label: "Plan avant"
+        },
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/plan-apres.webp",
+          label: "Plan après"
+        },
+
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/1.webp",
+          label: "Pendant"
+        },
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/2.webp",
+          label: "Pendant"
+        },
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/4.webp",
+          label: "Pendant"
+        },
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/5.webp",
+          label: "Pendant"
+        },
+         {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/3.webp",
+          label: "Après"
+        },
+        {
+          src: "assets/images/galerie/extensions/projet-r-la-bouexiere/6.webp",
+          label: "Après"
+        }
+      ],
+
+      alt: "Projet R extension maison La Bouëxière",
+
+      shortText:
+        "Extension et réorganisation complète du rez-de-chaussée d’une maison afin d’ouvrir les espaces de vie sur le jardin.",
+
+      fullText: `
+        Maîtrise d’ouvrage : Privé
+        Localisation : La Bouëxière (35)
+        Année de réalisation : 2020 / 2023
+        Surface : 35 m² d’extension
+        Durée étude : 12 mois
+        Durée travaux : 9 mois
+        (Chantier livré janvier 2023)
+
+
+        Descriptif :
+
+        Mission complète – en milieu occupé
+
+        Le programme des clients était de réagencer leur rez-de-chaussée en créant une extension destinée à agrandir leur espace de vie.
+
+        Dès la première esquisse, la proposition est allée au-delà de la demande initiale. La cuisine existante et la pièce de vie ne profitaient ni du jardin ni de la lumière naturelle.
+
+        Le choix architectural a donc été de proposer une réorganisation complète du rez-de-chaussée.
+
+        La cuisine existante devient une chambre. L’ancienne chambre est transformée en arrière-cuisine et dressing. Une partie du salon actuel peut évoluer en espace bureau.
+
+        L’extension accueille à la fois la nouvelle cuisine et un prolongement du séjour, avec un véritable coin repas ouvert sur le jardin et sur une terrasse.
+        `
+    },
+  /* #endregion Projet R */
+
+   /* #region Projet V */
+  {
+    category: "Extensions",
+
+    title: "Projet V",
+
+    meta: "Chasné-sur-Illet (35) • 2020 / 2021",
+
+    cover: "assets/images/galerie/extensions/projet-v/apres.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/extensions/projet-v/avant.webp",
+        label: "Avant"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant2.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant4.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant5.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/pendant6.webp",
+        label: "Pendant"
+      },
+
+      {
+        src: "assets/images/galerie/extensions/projet-v/apres1.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/extensions/projet-v/apres.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Projet V extension surélévation maison Chasné-sur-Illet",
+
+    shortText:
+      "Transformation complète d’une petite maison avec extension et surélévation pour créer une habitation familiale.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2020 / 2021
+  Surface : 15 m² d’extension
+  Durée étude : 12 mois
+  Durée travaux : 7 mois
+  (Chantier livré novembre 2021)
+
+
+  Descriptif :
+
+  Mission complète
+
+  Le projet consistait à transformer une petite maison comprenant une chambre, une salle d’eau, un WC et une pièce à vivre avec cuisine en une véritable habitation familiale.
+
+  Le programme a permis de créer trois chambres, un espace bureau, une cuisine fonctionnelle, un salon, un espace repas ainsi qu’une seconde salle d’eau.
+
+  Pour répondre à ces besoins, une extension et une surélévation ont été réalisées.
+
+  Les travaux ont nécessité un renforcement du plancher existant ainsi que la création d’une trémie pour intégrer un nouvel escalier et redistribuer les niveaux.
+  `
+  },
+  /* #endregion Projet V */
 
 
   /* ================================================== */
@@ -602,6 +952,193 @@ const galleryProjects = [
     },
   /* #endregion Maison de services */
 
+  /* #region École 3 classes */
+  {
+    category: "Commerces / Activités",
+
+    title: "École – 3 classes supplémentaires",
+
+    meta: "Chasné-sur-Illet (35)",
+
+    cover: "assets/images/galerie/commerces/ecole-3-classes/16.webp",
+
+    images: [
+      { src: "assets/images/galerie/commerces/ecole-3-classes/1.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/2.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/3.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/4.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/5.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/6.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/7.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/8.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/9.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/10.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/11.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/12.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/13.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/14.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/15.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/16.webp" },
+      { src: "assets/images/galerie/commerces/ecole-3-classes/17.webp" }
+    ],
+
+    alt: "Extension école Chasné-sur-Illet création de 3 classes supplémentaires",
+
+    shortText:
+      "Construction de trois classes supplémentaires pour répondre à l’évolution des besoins scolaires.",
+
+    fullText: `
+  Projet de construction de trois classes supplémentaires pour l’école de Chasné-sur-Illet.
+  `
+  },
+  /* #endregion École 3 classes */
+
+  /* #region Centre de loisirs */
+  {
+    category: "Commerces / Activités",
+
+    title: "Centre de loisirs",
+
+    meta: "Chasné-sur-Illet (35) • 2018 / 2021",
+
+    cover: "assets/images/galerie/commerces/centre-loisirs/apres5.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres1.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres2.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres3.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/avant4.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres4.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/avant5.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres5.webp",
+        label: "Après"
+      },
+      {
+        src: "assets/images/galerie/commerces/centre-loisirs/apres5b.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Centre de loisirs Chasné-sur-Illet rénovation bâtiment public enfants",
+
+    shortText:
+      "Transformation d’un ancien restaurant scolaire en centre de loisirs avec mise aux normes et réorganisation des espaces.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Public
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2018 / 2021
+  Surface : 315 m²
+  Durée étude : 12 mois
+  Durée travaux : 15 mois (en parallèle du restaurant scolaire)
+  (Chantier livré février 2021)
+
+  Cotraitance avec le cabinet Lefort Architectes et le bureau d’études ITH
+
+
+  Descriptif :
+
+  Suite à la construction d’un nouveau restaurant scolaire, la commune a fait le choix de changer la destination de l’ancien bâtiment afin de créer un centre de loisirs.
+
+  Le projet a consisté à remettre le bâtiment aux normes en vigueur, tout en repensant les espaces pour accueillir les enfants dans de meilleures conditions.
+
+  De nouveaux espaces de travail et d’accueil ont été créés afin d’adapter le bâtiment à ses nouvelles fonctions.
+  `
+  },
+  /* #endregion Centre de loisirs */
+
+  /* #region Restaurant scolaire */
+  {
+    category: "Commerces / Activités",
+
+    title: "Restaurant scolaire",
+
+    meta: "Chasné-sur-Illet (35) • 2018 / 2021",
+
+    cover: "assets/images/galerie/commerces/restaurant-scolaire/1.webp",
+
+    images: [
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/1.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/2.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/3.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/4.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/5.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/6.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/7.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/8.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/9.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/10.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/11.webp", label: "Projet" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/12.webp", label: "Projet" }
+    ],
+
+    alt: "Restaurant scolaire Chasné-sur-Illet construction avec self",
+
+    shortText:
+      "Construction d’un restaurant scolaire avec self sur le site de l’école de la Choinette à Chasné-sur-Illet.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Public
+  Localisation : Chasné-sur-Illet (35)
+  Année de réalisation : 2018 / 2021
+  Surface : 315 m²
+  Durée étude : 12 mois
+  Durée travaux : 15 mois
+  (Chantier livré février 2021)
+
+  Cotraitance avec le cabinet Lefort Architectes et le bureau d’études ITH
+
+
+  Descriptif :
+
+  La mairie de Chasné-sur-Illet a procédé à un appel d’offres en deux phases pour le site de l’école de la Choinette.
+
+  La première phase consistait en la construction d’un restaurant scolaire avec self.
+
+  Le chantier a connu différents arrêts liés au contexte sanitaire.
+
+  Le projet a été livré au premier trimestre 2021.
+
+  La deuxième phase, comprenant trois salles de classe et un pôle administratif, était en phase de chantier au mois de mai 2024.
+  `
+  },
+  /* #endregion Restaurant scolaire */
+
   /* #region Bar Restaurant Le Chasné */
     {
       category: "Commerces / Activités",
@@ -703,28 +1240,191 @@ const galleryProjects = [
     },
   /* #endregion Bar Restaurant Le Chasné */
 
+  /* #region Boulangerie Marcillé Robert */
+  {
+    category: "Commerces / Activités",
+
+    title: "Boulangerie",
+
+    meta: "Marcillé-Robert (35) • 2018 / 2019",
+
+    cover: "assets/images/galerie/commerces/boulangerie-marcille/apres3.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/pendant.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/apres.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/pendant1.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/apres1.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/apres2.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant3.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/apres3.webp",
+        label: "Après"
+      },
+
+      {
+        src: "assets/images/galerie/commerces/boulangerie-marcille/avant4.webp",
+        label: "Avant"
+      }
+    ],
+
+    alt: "Boulangerie Marcillé-Robert rénovation commerce et logement",
+
+    shortText:
+      "Rénovation complète d’une boulangerie communale et de son logement associé, avec remise aux normes et valorisation de la façade Odorico.",
+
+    fullText: `
+  Maîtrise d’ouvrage : Public
+  Localisation : Marcillé-Robert (35)
+  Année de réalisation : 2018 / 2019
+  Surface : 320 m²
+  Durée étude : 7 mois
+  Durée travaux : 33 semaines, soit environ 8 mois
+  (Chantier livré en juin 2019)
+
+  Équipe de maîtrise d’œuvre :
+  Architecte mandataire / MOE et OPE : ArcHeco
+  Bureau d’études : BEE+
+
+
+  Descriptif :
+
+  Rénovation de la boulangerie et du logement associé à Marcillé-Robert.
+
+  Suite à l’acquisition des murs par la mairie de Marcillé-Robert, le souhait était de permettre la réouverture rapide de ce commerce de proximité, tout en assurant sa mise aux normes et sa mise en sécurité.
+
+  L’ensemble du bâtiment a été purgé et la structure a été consolidée.
+
+  La façade principale, composée de décorations en mosaïque Odorico, a été nettoyée et réparée afin d’être remise en valeur.
+
+  Le logement associé a été agrandi grâce à l’utilisation des combles. Au final, il comprend cinq chambres ainsi qu’une grande pièce à vivre.
+
+  Le logement a été conçu de manière indépendante de la boulangerie, afin d’offrir davantage de souplesse à la mairie quant à l’occupation de son parc immobilier.
+
+
+  Mission de maîtrise d’œuvre complète comprenant :
+
+  • Diagnostic
+  • Esquisse : relevé de l’existant et mise au propre des plans
+  • APS / APD : établissement des plans, coupes et façades
+  • Reconstitution de l’état avant sinistre à partir des relevés et documents photographiques existants
+  • Déclaration préalable / Autorisation de travaux ERP
+  • DCE : descriptif des travaux
+  • MDT : mise au point des marchés de travaux
+  • VISA
+  • EXE : élaboration des plans d’exécution
+  • Suivi de travaux
+  • AOR : assistance aux opérations de réception
+  `
+  },
+  /* #endregion Boulangerie Marcillé Robert */
+
   /* ================================================== */
   /* BÂTIMENTS PROFESSIONNELS */
   /* ================================================== */
 
-  /* #region Projet Étude conceptuelle */
-  /*{
+  /* #region Projet EURL GOUPIL */
+  {
     category: "Bâtiments Professionnels",
-    title: "",
-    meta: "",
-    cover: "",
 
-    images: [""],
+    title: "EURL Goupil",
 
-    alt: "",
+    meta: "Liffré (35) • 2022 / 2023",
+
+    cover: "assets/images/galerie/batiment-pro/projet-eurl-goupil/6.webp",
+
+    images: [
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/1.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/2.webp",
+        label: "Avant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/3.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/4.webp",
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/5.webp",
+        label: "Pendant"
+      },
+      {
+        src: "assets/images/galerie/batiment-pro/projet-eurl-goupil/6.webp",
+        label: "Après"
+      }
+    ],
+
+    alt: "Bâtiment professionnel EURL Goupil Liffré construction bureaux entrepôt",
 
     shortText:
-      "",
+      "Construction d’un bâtiment professionnel regroupant bureaux, stockage et entrepôt, avec une identité architecturale forte.",
 
-    fullText:
-      ""
-  }*/
-  /* #endregion Projet Étude conceptuelle */
+    fullText: `
+  Maîtrise d’ouvrage : Privé
+  Localisation : Liffré (35)
+  Année de réalisation : 2022 / 2023
+  Surface : 212 m²
+  Durée étude : 6 mois
+  Durée travaux : 10 mois
+  (Chantier livré février 2023)
+
+
+  Descriptif :
+
+  Mission complète
+
+  L’entreprise EURL Goupil intervient dans les installations électriques pour les particuliers et les professionnels, aussi bien pour les logements que pour les locaux d’activité.
+
+  Le projet consiste en la construction de bureaux et d’un entrepôt dans la zone de la Beaugé à Liffré.
+
+  Les différentes fonctions du bâtiment sont clairement lisibles depuis l’extérieur :
+
+  • Un volume en bardage métallique destiné à l’entrepôt  
+  • Un bâtiment gris servant de zone de stockage  
+  • Un bâtiment bleu regroupant les bureaux et les espaces de pause  
+
+  Le choix des couleurs est directement issu du logo de l’entreprise, permettant de renforcer son identité visuelle au sein de la zone artisanale.
+  `
+  },
+  /* #endregion Projet EURL GOUPIL */
 
 
 ];
