@@ -1424,29 +1424,30 @@ const galleryProjects = [
   /* #endregion Centre de loisirs */
 
   /* #region Restaurant scolaire */
-  /* {
+ {
      category: "Commerces / Activités",
 
      title: "Restaurant scolaire",
 
      meta: "Chasné-sur-Illet (35) • 2018 / 2021",
 
-     cover: "assets/images/galerie/commerces/restaurant-scolaire/1.webp",
+     cover: "assets/images/galerie/commerces/restaurant-scolaire/3apres.webp",
 
-     images: [
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/1.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/2.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/3.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/4.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/5.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/6.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/7.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/8.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/9.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/10.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/11.webp", label: "Projet" },
-       { src: "assets/images/galerie/commerces/restaurant-scolaire/12.webp", label: "Projet" }
-     ],
+    images: [
+      
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/1pendant1.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/1pendant2.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/1apres.webp", label: "Après" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/2pendant1.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/2pendant2.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/2pendant3.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/apres2.webp", label: "Après" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/3pendant1.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/3pendant2.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/3pendant3.webp", label: "Pendant" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/3apres.webp", label: "Après" },
+      { src: "assets/images/galerie/commerces/restaurant-scolaire/apres3.webp", label: "Après" }
+    ],
 
      alt: "Restaurant scolaire Chasné-sur-Illet construction avec self",
 
@@ -1478,7 +1479,7 @@ const galleryProjects = [
    La deuxième phase, comprenant trois salles de classe et un pôle administratif, était en phase de chantier au mois de mai 2024.
    `
    },
-   */
+  
   /* #endregion Restaurant scolaire */
 
   /* #region Bar Restaurant Le Chasné */
