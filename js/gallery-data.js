@@ -1424,60 +1424,61 @@ const galleryProjects = [
   /* #endregion Centre de loisirs */
 
   /* #region Restaurant scolaire */
-  {
-    category: "Commerces / Activités",
-
-    title: "Restaurant scolaire",
-
-    meta: "Chasné-sur-Illet (35) • 2018 / 2021",
-
-    cover: "assets/images/galerie/commerces/restaurant-scolaire/1.webp",
-
-    images: [
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/1.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/2.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/3.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/4.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/5.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/6.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/7.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/8.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/9.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/10.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/11.webp", label: "Projet" },
-      { src: "assets/images/galerie/commerces/restaurant-scolaire/12.webp", label: "Projet" }
-    ],
-
-    alt: "Restaurant scolaire Chasné-sur-Illet construction avec self",
-
-    shortText:
-      "Construction d’un restaurant scolaire avec self sur le site de l’école de la Choinette à Chasné-sur-Illet.",
-
-    fullText: `
-  Maîtrise d’ouvrage : Public
-  Localisation : Chasné-sur-Illet (35)
-  Année de réalisation : 2018 / 2021
-  Surface : 315 m²
-  Durée étude : 12 mois
-  Durée travaux : 15 mois
-  (Chantier livré février 2021)
-
-  Cotraitance avec le cabinet Lefort Architectes et le bureau d’études ITH
-
-
-  Descriptif :
-
-  La mairie de Chasné-sur-Illet a procédé à un appel d’offres en deux phases pour le site de l’école de la Choinette.
-
-  La première phase consistait en la construction d’un restaurant scolaire avec self.
-
-  Le chantier a connu différents arrêts liés au contexte sanitaire.
-
-  Le projet a été livré au premier trimestre 2021.
-
-  La deuxième phase, comprenant trois salles de classe et un pôle administratif, était en phase de chantier au mois de mai 2024.
-  `
-  },
+  /* {
+     category: "Commerces / Activités",
+ 
+     title: "Restaurant scolaire",
+ 
+     meta: "Chasné-sur-Illet (35) • 2018 / 2021",
+ 
+     cover: "assets/images/galerie/commerces/restaurant-scolaire/1.webp",
+ 
+     images: [
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/1.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/2.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/3.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/4.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/5.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/6.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/7.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/8.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/9.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/10.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/11.webp", label: "Projet" },
+       { src: "assets/images/galerie/commerces/restaurant-scolaire/12.webp", label: "Projet" }
+     ],
+ 
+     alt: "Restaurant scolaire Chasné-sur-Illet construction avec self",
+ 
+     shortText:
+       "Construction d’un restaurant scolaire avec self sur le site de l’école de la Choinette à Chasné-sur-Illet.",
+ 
+     fullText: `
+   Maîtrise d’ouvrage : Public
+   Localisation : Chasné-sur-Illet (35)
+   Année de réalisation : 2018 / 2021
+   Surface : 315 m²
+   Durée étude : 12 mois
+   Durée travaux : 15 mois
+   (Chantier livré février 2021)
+ 
+   Cotraitance avec le cabinet Lefort Architectes et le bureau d’études ITH
+ 
+ 
+   Descriptif :
+ 
+   La mairie de Chasné-sur-Illet a procédé à un appel d’offres en deux phases pour le site de l’école de la Choinette.
+ 
+   La première phase consistait en la construction d’un restaurant scolaire avec self.
+ 
+   Le chantier a connu différents arrêts liés au contexte sanitaire.
+ 
+   Le projet a été livré au premier trimestre 2021.
+ 
+   La deuxième phase, comprenant trois salles de classe et un pôle administratif, était en phase de chantier au mois de mai 2024.
+   `
+   },
+   */
   /* #endregion Restaurant scolaire */
 
   /* #region Bar Restaurant Le Chasné */
