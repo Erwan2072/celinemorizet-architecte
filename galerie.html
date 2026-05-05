@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <!-- #region HEAD -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Galerie | Céline Morizet</title>
 
-  <meta
-    name="description"
-    content="Découvrez la galerie des projets de Céline Morizet, architecte DPLG : rénovations, extensions, constructions neuves et aménagements."
-  >
+  <meta name="description"
+    content="Découvrez la galerie des projets de Céline Morizet, architecte DPLG : rénovations, extensions, constructions neuves et aménagements.">
 
   <link rel="stylesheet" href="css/style.css">
 
-  <script
-    data-goatcounter="https://celinemorizet.goatcounter.com/count"
-    async
-    src="//gc.zgo.at/count.js">
+  <script data-goatcounter="https://celinemorizet.goatcounter.com/count" async src="//gc.zgo.at/count.js">
   </script>
 </head>
 <!-- #endregion -->
@@ -29,11 +25,7 @@
     <div class="container header-container">
 
       <a href="index.html" class="site-logo" aria-label="Retour à l'accueil">
-        <img
-          src="assets/images/logo.webp"
-          alt="Logo Céline Morizet Architecte"
-          class="logo-image"
-        >
+        <img src="assets/images/logo.webp" alt="Logo Céline Morizet Architecte" class="logo-image">
 
         <div class="logo-text">
           <span class="logo-name">CÉLINE MORIZET</span>
@@ -62,11 +54,7 @@
     <!-- #region HERO TOP -->
     <section class="hero-top">
       <div class="container">
-        <img
-          src="assets/images/plan.webp"
-          alt="Plan architectural avec outils"
-          class="hero-top-image"
-        >
+        <img src="assets/images/plan.webp" alt="Plan architectural avec outils" class="hero-top-image">
       </div>
     </section>
     <!-- #endregion -->
@@ -99,17 +87,10 @@
 
         <div class="tabs-container gallery-tabs-container">
 
-          <div
-            class="tabs-nav gallery-tabs-nav"
-            id="galleryTabs"
-            role="tablist"
-            aria-label="Catégories de projets"
-          ></div>
+          <div class="tabs-nav gallery-tabs-nav" id="galleryTabs" role="tablist" aria-label="Catégories de projets">
+          </div>
 
-          <div
-            class="gallery-grid"
-            id="galleryGrid"
-          ></div>
+          <div class="gallery-grid" id="galleryGrid"></div>
 
         </div>
 
@@ -121,55 +102,28 @@
     <!-- #region GALLERY MODAL -->
     <div class="gallery-modal" id="galleryModal" hidden>
 
-      <div
-        class="gallery-modal-backdrop"
-        data-gallery-close>
+      <div class="gallery-modal-backdrop" data-gallery-close>
       </div>
 
-      <div
-        class="gallery-modal-content"
-        role="dialog"
-        aria-modal="true"
-      >
+      <div class="gallery-modal-content" role="dialog" aria-modal="true">
 
-        <button
-          class="gallery-modal-close"
-          type="button"
-          data-gallery-close
-          aria-label="Fermer"
-        >
+        <button class="gallery-modal-close" type="button" data-gallery-close aria-label="Fermer">
           ✕
         </button>
 
         <!-- Slider -->
         <div class="gallery-modal-slider">
 
-          <button
-            class="gallery-slider-button gallery-slider-prev"
-            type="button"
-            id="galleryPrev"
-          >
+          <button class="gallery-slider-button gallery-slider-prev" type="button" id="galleryPrev">
             ‹
           </button>
 
           <!-- Badge Avant / Pendant / Après -->
-          <span
-            class="gallery-image-label"
-            id="galleryImageLabel"
-          ></span>
+          <span class="gallery-image-label" id="galleryImageLabel"></span>
 
-          <img
-            id="galleryModalImage"
-            src=""
-            alt=""
-            class="gallery-modal-image"
-          >
+          <img id="galleryModalImage" src="" alt="" class="gallery-modal-image">
 
-          <button
-            class="gallery-slider-button gallery-slider-next"
-            type="button"
-            id="galleryNext"
-          >
+          <button class="gallery-slider-button gallery-slider-next" type="button" id="galleryNext">
             ›
           </button>
 
@@ -178,41 +132,23 @@
         <!-- Infos -->
         <div class="gallery-modal-info">
 
-          <p
-            class="gallery-modal-category"
-            id="galleryModalCategory"
-          ></p>
+          <p class="gallery-modal-category" id="galleryModalCategory"></p>
 
           <h2 id="galleryModalTitle"></h2>
 
-          <p
-            class="gallery-modal-meta"
-            id="galleryModalMeta"
-          ></p>
+          <p class="gallery-modal-meta" id="galleryModalMeta"></p>
 
-         <p id="galleryModalText"></p>
+          <p id="galleryModalText"></p>
 
-            <!-- Boutons vidéos YouTube -->
-            <div
-              class="gallery-video-buttons"
-              id="galleryVideoButtons"
-              hidden
-            ></div>
+          <!-- Boutons vidéos YouTube -->
+          <div class="gallery-video-buttons" id="galleryVideoButtons" hidden></div>
 
-            <!-- Vidéo optionnelle -->
-            <div
-              class="gallery-modal-video"
-              id="galleryModalVideoWrapper"
-              hidden
-            >
+          <!-- Vidéo optionnelle -->
+          <div class="gallery-modal-video" id="galleryModalVideoWrapper" hidden>
 
             <h3 id="galleryModalVideoTitle"></h3>
 
-            <iframe
-              id="galleryModalVideo"
-              src=""
-              title="Vidéo du projet"
-              loading="lazy"
+            <iframe id="galleryModalVideo" src="" title="Vidéo du projet" loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
@@ -230,82 +166,67 @@
 
 
   <!-- #region FOOTER -->
-      <footer class="site-footer">
-        <div class="container footer-container">
-          <div class="footer-left">
-            <p class="footer-text">
-              © 2026 Céline Morizet — Architecte DPLG
-            </p>
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-text">
+          © 2026 Céline Morizet — Architecte DPLG
+        </p>
 
-            <a href="mentions-legales.html" class="footer-legal-link">
-              Mentions légales
-            </a>
-          </div>
+        <a href="mentions-legales.html" class="footer-legal-link">
+          Mentions légales
+        </a>
+      </div>
 
-          <div class="footer-right">
-            <img
-              src="assets/images/ordre_architectes.webp"
-              alt="Inscrit à l'ordre des architectes"
-              class="footer-ordre-logo"
-            >
+      <div class="footer-right">
+        <img src="assets/images/ordre_architectes.webp" alt="Inscrit à l'ordre des architectes"
+          class="footer-ordre-logo">
 
-            <!-- TON LOGO CLIQUABLE -->
-            <a
-              href="https://www.ronevideaste.fr"
-              target="_blank"
-              rel="noopener"
-              aria-label="Site R-One Vidéaste"
-            >
-              <img
-                src="assets/images/logo-rone.webp"
-                alt="R-One Vidéaste"
-                class="footer-rone-logo"
-              >
-            </a>
+        <!-- TON LOGO CLIQUABLE -->
+        <a href="https://www.ronevideaste.fr" target="_blank" rel="noopener" aria-label="Site R-One Vidéaste">
+          <img src="assets/images/logo-rone.webp" alt="R-One Vidéaste" class="footer-rone-logo">
+        </a>
 
-            <div class="footer-socials">
+        <div class="footer-socials">
+          <!-- #region FOOTER FACEBOOK -->
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://tonsite.fr" target="_blank" rel="noopener"
+            aria-label="Partager sur Facebook" class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.91h-2.33V22c4.78-.75 8.44-4.91 8.44-9.93z" />
+            </svg>
+          </a>
+          <!-- #endregion -->
 
-            <div class="footer-socials">
-              <!-- #region FOOTER FACEBOOK -->
-              <a
-                href="https://www.facebook.com/sharer/sharer.php?u=https://tonsite.fr"
-                target="_blank"
-                rel="noopener"
-                aria-label="Partager sur Facebook"
-                class="social-link"
-              >
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.91h-2.33V22c4.78-.75 8.44-4.91 8.44-9.93z"/>
-                </svg>
-              </a>
-              <!-- #endregion -->
+          <!-- #region FOOTER INSTAGRAM -->
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"
+            class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24zM12 9a3 3 0 100 6 3 3 0 000-6z" />
+            </svg>
+          </a>
+          <!-- #endregion -->
 
-              <!-- #region FOOTER INSTAGRAM -->
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Instagram"
-                class="social-link"
-              >
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
-                </svg>
-              </a>
-              <!-- #endregion -->
-            </div>
-          </div>
+          <!-- #region FOOTER LINKEDIN -->
+          <a href="https://www.linkedin.com/in/c%C3%A9line-morizet-49519a38/" target="_blank" rel="noopener"
+            aria-label="LinkedIn" class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.67H9.33V9h3.41v1.56h.05c.48-.9 1.66-1.86 3.41-1.86 3.65 0 4.32 2.4 4.32 5.52v6.23zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM6.97 20.45H3.71V9h3.26v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.21 0 22.23 0z" />
+            </svg>
+          </a>
+          <!-- #endregion -->
         </div>
-      </footer>
-      <!-- #endregion -->
+      </div>
+    </div>
+  </footer>
+  <!-- #endregion -->
 
 
 
   <!-- #region CARD FOCUS OVERLAY -->
-  <div
-    class="card-focus-overlay"
-    id="cardFocusOverlay"
-    hidden>
+  <div class="card-focus-overlay" id="cardFocusOverlay" hidden>
   </div>
   <!-- #endregion -->
 
@@ -317,4 +238,5 @@
   <!-- #endregion -->
 
 </body>
+
 </html>
