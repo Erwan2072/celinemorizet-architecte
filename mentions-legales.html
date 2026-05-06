@@ -8,8 +8,8 @@
   <meta name="description"
     content="Mentions légales et politique de confidentialité du site de Céline Morizet, architecte DPLG." />
   <link rel="canonical" href="https://www.celinemorizet.fr/mentions-legales.html" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="assets/images/logo.webp" type="image/webp" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.webp" type="image/webp" />
 
   <script type="application/ld+json">
     {
@@ -31,8 +31,8 @@
   <!-- #region HEADER -->
   <header class="site-header">
     <div class="container header-container">
-      <a href="index.html" class="site-logo" aria-label="Retour à l'accueil">
-        <img src="assets/images/logo.webp" alt="Logo Céline Morizet Architecte" class="logo-image">
+      <a href="/index.html" class="site-logo" aria-label="Retour à l'accueil">
+        <img src="/assets/images/logo.webp" alt="Logo Céline Morizet Architecte" class="logo-image">
 
         <div class="logo-text">
           <span class="logo-name">CÉLINE MORIZET</span>
@@ -43,10 +43,10 @@
 
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
-          <li><a href="index.html" class="nav-link active">Accueil</a></li>
-          <li><a href="galerie.html" class="nav-link">Galerie</a></li>
-          <li><a href="liens-utiles.html" class="nav-link">Liens utiles</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="/index.html" class="nav-link active">Accueil</a></li>
+          <li><a href="/galerie.html" class="nav-link">Galerie</a></li>
+          <li><a href="/liens-utiles.html" class="nav-link">Liens utiles</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -126,6 +126,7 @@
               <a href="https://www.ronevideaste.fr" target="_blank" rel="noopener">
                 R-One Vidéaste
               </a>
+            </p>
             <p><strong>Responsable :</strong> Erwan Lebreton</p>
             <p><strong>Statut :</strong> Entrepreneur individuel - Micro-entreprise</p>
             <p><strong>SIRET :</strong> 942 881 947 00017</p>
@@ -321,7 +322,7 @@
 
         <div class="legal-contact-actions">
           <a class="button-primary" href="mailto:morizetceline@orange.fr">Écrire par email</a>
-          <a class="button-secondary" href="contact.html">Page contact</a>
+          <a class="button-secondary" href="/contact.html">Page contact</a>
         </div>
       </div>
     </section>
@@ -335,18 +336,18 @@
           © 2026 Céline Morizet — Architecte DPLG
         </p>
 
-        <a href="mentions-legales.html" class="footer-legal-link">
+        <a href="/mentions-legales.html" class="footer-legal-link">
           Mentions légales
         </a>
       </div>
 
       <div class="footer-right">
-        <img src="assets/images/ordre_architectes.webp" alt="Inscrit à l'ordre des architectes"
+        <img src="/assets/images/ordre_architectes.webp" alt="Inscrit à l'ordre des architectes"
           class="footer-ordre-logo">
 
         <!-- TON LOGO CLIQUABLE -->
         <a href="https://www.ronevideaste.fr" target="_blank" rel="noopener" aria-label="Site R-One Vidéaste">
-          <img src="assets/images/logo-rone.webp" alt="R-One Vidéaste" class="footer-rone-logo">
+          <img src="/assets/images/logo-rone.webp" alt="R-One Vidéaste" class="footer-rone-logo">
         </a>
 
         <div class="footer-socials">
@@ -387,11 +388,14 @@
 
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    const yearElement = document.getElementById("year");
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
   </script>
 
   <!-- #region SCRIPTS -->
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
   <!-- #endregion -->
 </body>
 
