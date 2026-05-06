@@ -1,0 +1,6 @@
+RewriteEngine On
+
+Redirect 301 /galerie https://www.celine-morizet.fr/galerie.html
+Redirect 301 /contact https://www.celine-morizet.fr/contact.html
+Redirect 301 /liens-utiles https://www.celine-morizet.fr/liens-utiles.html
+Redirect 301 /mentions-legales https://www.celine-morizet.fr/mentions-legales.html
